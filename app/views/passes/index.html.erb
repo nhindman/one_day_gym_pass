@@ -1,0 +1,10 @@
+<!-- <form action: "<%= passes_path %>" method: "POST">
+
+  <input id="address_input" type="text" name="user_input_address" placeholder="enter your address" />
+  <button>Find gyms</button>
+</form> -->
+
+
+<% @items.each do |item| %>
+  <%= item["name"] %>
+<% end %>
