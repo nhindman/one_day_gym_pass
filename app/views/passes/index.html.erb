@@ -1,10 +1,10 @@
-<!-- <form action: "<%= passes_path %>" method: "POST">
-
-  <input id="address_input" type="text" name="user_input_address" placeholder="enter your address" />
-  <button>Find gyms</button>
-</form> -->
-
-
+<div class="gyms_near_field">
+<br>gyms near: <%= @user.address %></br>
+<a href="<%= root_path %>">change address</a>  
+</div>      
+<ul class="gyms">
 <% @items.each do |item| %>
-  <%= item["name"] %>
+  <% item_id = item['id'] %>
+  <li><%= link_to item['name'], pass_path(item) %></li>
 <% end %>
+</ul>

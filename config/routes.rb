@@ -3,7 +3,10 @@ Odgp::Application.routes.draw do
   resources :passes
   resources :users
 
-  root to: "passes#index"
+  root to: "users#index"
+
+  get '/gym' => "passes#gym"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

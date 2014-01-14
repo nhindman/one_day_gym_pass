@@ -1,0 +1,13 @@
+<%= @gym.each do |gym| %>
+<h1><%= gym["response"]["venue"]["name"] %></h1>
+<ul class="venue details">
+<li>Phone Number: <%= gym["response"]["venue"]["contact"]["formattedPhone"] %></li>
+<li>Address: <%= gym["response"]["venue"]["location"]["address"] %>
+<%= gym["response"]["venue"]["location"]["crossStreet"] %>
+<%= gym["response"]["venue"]["location"]["city"] %>
+<%= gym["response"]["venue"]["location"]["state"] %>
+<%= gym["response"]["venue"]["location"]["postalCode"] %></li>
+Website: <%= gym["response"]["venue"]["url"] %>
+Description: <%= gym["response"]["venue"]["description"] %>
+<%= gym["response"]["venue"]["photos"] %>
+</ul>
