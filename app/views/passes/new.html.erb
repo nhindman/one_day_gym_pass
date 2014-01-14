@@ -1,4 +1,8 @@
 <h1><%= @gym_name %></h1>
+<form action="passes/create" method="POST">
+<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+<button type="submit">Get a day pass</button>
+</form>
 <ul class="venue details">
 <li>Phone Number: <%= @phone_number %></li>
 <li>Address: <%= @address %>
@@ -9,3 +13,4 @@
 <li>Website: <%= @website %></li>
 <li>Description: <%= @description %></li>
 </ul>
+

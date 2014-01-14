@@ -1,5 +1,8 @@
+<%-#index view from users controller%>
+
 <form action= "passes/index" method= "POST">
 
   <input id="address_input" type="text" name="user_input_address" placeholder="enter your address" />
-  <button>Find gyms</button>
+  <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+  <button type="submit">Find gyms</button>
 </form>

@@ -15493,3 +15493,2454 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 13:54:15 -0500
 Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-14 14:01:59 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (29.0ms)
+Completed 500 Internal Server Error in 115.5ms
+
+ActionView::Template::Error (undefined method `name_field' for #<ActionView::Helpers::FormBuilder:0x00000101d31e70>):
+    4:   <%= devise_error_messages! %>
+    5: 
+    6:   <div><%= f.label :name %><br />
+    7:   <%= f.name_field :name, :autofocus => true %></div>
+    8: 
+    9:   <div><%= f.label :email %><br />
+    10:   <%= f.email_field :email, :autofocus => true %></div>
+  app/views/devise/registrations/new.html.erb:7:in `block in _app_views_devise_registrations_new_html_erb__384530395352928979_2174190660'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__384530395352928979_2174190660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:14:52 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 51.3ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:14:52 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:14:52 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:14:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:14:52 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:14:57 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/passes
+Completed 302 Found in 7694.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/passes" for 127.0.0.1 at 2014-01-14 14:15:05 -0500
+Processing by PassesController#index as HTML
+Completed 500 Internal Server Error in 0.2ms
+
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.6ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-01-14 14:15:11 -0500
+
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-01-14 14:15:16 -0500
+
+ActionController::RoutingError (No route matches [GET] "/signup"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-14 14:15:31 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (61.5ms)
+Completed 500 Internal Server Error in 99.6ms
+
+ActionView::Template::Error (undefined method `name_field' for #<ActionView::Helpers::FormBuilder:0x000001035a2f40>):
+    4:   <%= devise_error_messages! %>
+    5: 
+    6:   <div><%= f.label :name %><br />
+    7:   <%= f.name_field :name, :autofocus => true %></div>
+    8: 
+    9:   <div><%= f.label :email %><br />
+    10:   <%= f.email_field :email, :autofocus => true %></div>
+  app/views/devise/registrations/new.html.erb:7:in `block in _app_views_devise_registrations_new_html_erb__3577435469920115562_2175537620'
+  app/views/devise/registrations/new.html.erb:3:in `_app_views_devise_registrations_new_html_erb__3577435469920115562_2175537620'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:15:53 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6.9ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:15:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:15:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:15:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:15:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:18:55 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5.3ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:18:55 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:18:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:18:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:18:55 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:18:58 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/passes
+Completed 302 Found in 7173.5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/passes" for 127.0.0.1 at 2014-01-14 14:19:06 -0500
+Processing by PassesController#index as HTML
+Completed 500 Internal Server Error in 0.2ms
+
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:19:19 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17.8ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:19 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:19 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:19:19 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:19:21 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/passes
+Completed 302 Found in 4118.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/passes" for 127.0.0.1 at 2014-01-14 14:19:25 -0500
+Processing by PassesController#index as HTML
+Completed 500 Internal Server Error in 0.3ms
+
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:19:32 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6.7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:19:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:19:45 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 47.5ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:19:46 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:46 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:19:46 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:19:50 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/passes
+Completed 302 Found in 1031.5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/passes" for 127.0.0.1 at 2014-01-14 14:19:51 -0500
+Processing by PassesController#index as HTML
+Completed 500 Internal Server Error in 0.2ms
+
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:20:35 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18.4ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:20:35 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5.6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /application.js - 304 Not Modified (41ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 3.9ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:20:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:20:39 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Redirected to http://localhost:3000/passes
+Completed 302 Found in 783.0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/passes" for 127.0.0.1 at 2014-01-14 14:20:39 -0500
+Processing by PassesController#index as HTML
+Completed 500 Internal Server Error in 0.5ms
+
+NoMethodError (undefined method `gsub' for nil:NilClass):
+  app/controllers/passes_controller.rb:11:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:22:20 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 17.5ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:22:20 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:22:20 -0500
+Served asset /jquery.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:22:20 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:22:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:22:21 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5.3ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:22:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:22:21 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:22:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:22:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:22:23 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Completed 200 OK in 951.7ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:25:44 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17.8ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:25:44 -0500
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:25:44 -0500
+Served asset /jquery.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:25:44 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:25:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:25:45 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.0ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:25:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:25:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:25:45 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:25:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:25:48 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered passes/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 314.8ms
+
+ActionView::Template::Error (undefined method `address' for nil:NilClass):
+    1: <div class="gyms_near_field">
+    2: <br>gyms near: <%= @user.address %></br>
+    3: <a href="<%= root_path %>">change address</a>  
+    4: </div>      
+    5: <ul class="gyms">
+  app/views/passes/index.html.erb:2:in `_app_views_passes_index_html_erb__469300008426539865_2171400260'
+  app/controllers/passes_controller.rb:20:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:26:26 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17.5ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:26:26 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:26:26 -0500
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:26:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:26:26 -0500
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:26:29 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered passes/index.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 1482.7ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:26:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:26:30 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:26:30 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:26:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4dbda28affcbcd48566f9695?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28617%29+208-4555&contact%5Bphone%5D=6172084555&contact%5Btwitter%5D=gymit&location%5Baddress%5D=920+Commonwealth+Ave&location%5Bcc%5D=US&location%5Bcity%5D=Brookline&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+St.+Paul+%26+Pleasant&location%5Bdistance%5D=3087&location%5Blat%5D=42.351097587981315&location%5Blng%5D=-71.11714213713333&location%5BpostalCode%5D=02446&location%5Bstate%5D=MA&name=GymIt&restricted=true&stats%5BcheckinsCount%5D=11558&stats%5BtipCount%5D=22&stats%5BusersCount%5D=737&url=http%3A%2F%2Fwww.gymit.com&verified=false" for 127.0.0.1 at 2014-01-14 14:30:50 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(617) 208-4555", "phone"=>"6172084555", "twitter"=>"gymit"}, "location"=>{"address"=>"920 Commonwealth Ave", "cc"=>"US", "city"=>"Brookline", "country"=>"United States", "crossStreet"=>"btwn St. Paul & Pleasant", "distance"=>"3087", "lat"=>"42.351097587981315", "lng"=>"-71.11714213713333", "postalCode"=>"02446", "state"=>"MA"}, "name"=>"GymIt", "restricted"=>"true", "stats"=>{"checkinsCount"=>"11558", "tipCount"=>"22", "usersCount"=>"737"}, "url"=>"http://www.gymit.com", "verified"=>"false", "id"=>"4dbda28affcbcd48566f9695"}
+  Rendered passes/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 163.0ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:30:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:30:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4ad6ff14f964a520760821e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+782-3535&contact%5Bphone%5D=6177823535&contact%5Btwitter%5D=ymca_boston&location%5Baddress%5D=615+Washington+St&location%5Bcc%5D=US&location%5Bcity%5D=Brighton&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=Oak+Square&location%5Bdistance%5D=2671&location%5Blat%5D=42.350781647023574&location%5Blng%5D=-71.16687331804117&location%5BpostalCode%5D=02135&location%5Bstate%5D=MA&name=YMCA+-+Oak+Square&restricted=true&stats%5BcheckinsCount%5D=7040&stats%5BtipCount%5D=15&stats%5BusersCount%5D=530&url=http%3A%2F%2Fwww.ymcaboston.org&verified=true" for 127.0.0.1 at 2014-01-14 14:30:54 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 782-3535", "phone"=>"6177823535", "twitter"=>"ymca_boston"}, "location"=>{"address"=>"615 Washington St", "cc"=>"US", "city"=>"Brighton", "country"=>"United States", "crossStreet"=>"Oak Square", "distance"=>"2671", "lat"=>"42.350781647023574", "lng"=>"-71.16687331804117", "postalCode"=>"02135", "state"=>"MA"}, "name"=>"YMCA - Oak Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"7040", "tipCount"=>"15", "usersCount"=>"530"}, "url"=>"http://www.ymcaboston.org", "verified"=>"true", "id"=>"4ad6ff14f964a520760821e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 122.7ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:30:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:54 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:30:55 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:30:55 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:32:19 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 3.1ms
+
+NameError (undefined local variable or method `user_input_address' for #<PassesController:0x0000010153e330>):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:32:59 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 2.1ms
+
+NameError (undefined local variable or method `user_input_address' for #<PassesController:0x0000010166f010>):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:33:37 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 58.3ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:37 -0500
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:37 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:33:37 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:33:37 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 39.5ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:33:38 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:38 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:38 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:33:40 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered passes/index.html.erb within layouts/application (35.5ms)
+Completed 200 OK in 755.6ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:33:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 18.6ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:35:54 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:35:58 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 0.7ms
+
+NoMethodError (undefined method `titelize' for "345 buckminster road, brookline, ma":String):
+  app/controllers/passes_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:37:51 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21.9ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:37:51 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:37:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:37:51 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:37:51 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:37:53 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered passes/index.html.erb within layouts/application (36.3ms)
+Completed 200 OK in 693.8ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:37:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:37:54 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:37:54 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:37:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:41:32 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 21.2ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:41:33 -0500
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:41:33 -0500
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:41:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:41:33 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:41:36 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered passes/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 277.8ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:41:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:41:36 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:41:36 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:41:36 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:42:27 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18.5ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:27 -0500
+Served asset /application.js - 304 Not Modified (43ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:42:27 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:27 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:27 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:42:42 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"112 east 17th street, new york, ny"}
+WARNING: Can't verify CSRF token authenticity
+  Rendered passes/index.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 726.0ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:43 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:42:43 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:43 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4b1a7c88f964a52003eb23e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5Bfacebook%5D=103256838688&contact%5BformattedPhone%5D=%28212%29+992-8500&contact%5Bphone%5D=2129928500&contact%5Btwitter%5D=nyuniversity&location%5Baddress%5D=140+E+14th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+3rd+%26+4th+Ave.&location%5Bdistance%5D=283&location%5Blat%5D=40.733405809930936&location%5Blng%5D=-73.98798157907179&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=NYU+Palladium+Athletic+Facility&restricted=true&stats%5BcheckinsCount%5D=20938&stats%5BtipCount%5D=30&stats%5BusersCount%5D=2234&storeId=&verified=true" for 127.0.0.1 at 2014-01-14 14:42:46 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"facebook"=>"103256838688", "formattedPhone"=>"(212) 992-8500", "phone"=>"2129928500", "twitter"=>"nyuniversity"}, "location"=>{"address"=>"140 E 14th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn 3rd & 4th Ave.", "distance"=>"283", "lat"=>"40.733405809930936", "lng"=>"-73.98798157907179", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"NYU Palladium Athletic Facility", "restricted"=>"true", "stats"=>{"checkinsCount"=>"20938", "tipCount"=>"30", "usersCount"=>"2234"}, "storeId"=>"", "verified"=>"true", "id"=>"4b1a7c88f964a52003eb23e3"}
+  Rendered passes/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 129.2ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:47 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:42:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:42:53 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6.7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:42:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:42:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-14 14:47:17 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (52.7ms)
+Completed 200 OK in 99.2ms (Views: 57.9ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:47:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-01-14 14:47:34 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Qeg8gEFIhGfPl+pGboM0yWMsdcblgucbfTPFEuUgMtc=", "user"=>{"name"=>"Nate Hindman", "email"=>"nate@email.com", "phone_number"=>"617-312-9460", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (3.9ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1
+  [1m[36mSQL (8.3ms)[0m  [1mINSERT INTO "users" ("address", "created_at", "current_sign_in_at", "current_sign_in_ip", "email", "encrypted_password", "last_sign_in_at", "last_sign_in_ip", "name", "phone_number", "remember_created_at", "reset_password_sent_at", "reset_password_token", "sign_in_count", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) RETURNING "id"[0m  [["address", nil], ["created_at", Tue, 14 Jan 2014 19:47:34 UTC +00:00], ["current_sign_in_at", nil], ["current_sign_in_ip", nil], ["email", "nate@email.com"], ["encrypted_password", "$2a$10$kFw/acDqjFibvT8KQGGgyelD/hSvg4DW3Ux9a/sBOfwAi3bKVB916"], ["last_sign_in_at", nil], ["last_sign_in_ip", nil], ["name", "Nate Hindman"], ["phone_number", "617-312-9460"], ["remember_created_at", nil], ["reset_password_sent_at", nil], ["reset_password_token", nil], ["sign_in_count", 0], ["updated_at", Tue, 14 Jan 2014 19:47:34 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2014-01-14 19:47:34.880860', "current_sign_in_at" = '2014-01-14 19:47:34.880860', "last_sign_in_ip" = '127.0.0.1', "current_sign_in_ip" = '127.0.0.1', "sign_in_count" = 1, "updated_at" = '2014-01-14 19:47:34.881976' WHERE "users"."id" = 1
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 125.9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:47:34 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 12.8ms (Views: 12.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:34 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:34 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:34 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:47:34 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-14 14:47:41 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8.4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:47:41 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.0ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:47:41 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:41 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:41 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:47:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:54:46 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 113.6ms (Views: 38.4ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:54:46 -0500
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:54:46 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:54:46 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:54:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:54:52 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11.0ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:54:52 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:54:52 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:54:52 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:54:52 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:54:56 -0500
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for UsersController):
+  actionpack (3.2.16) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.16) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.16) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.16) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `_run__409852969633812016__call__3679454040121328274__callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started DELETE "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:55:15 -0500
+
+AbstractController::ActionNotFound (The action 'destroy' could not be found for UsersController):
+  actionpack (3.2.16) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.16) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.16) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.16) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.16) lib/action_dispatch/routing/route_set.rb:608:in `call'
+  warden (1.2.3) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.3) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.3) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.16) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.16) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `_run__409852969633812016__call__3679454040121328274__callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.16) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.16) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2014-01-14 14:55:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/signin"):
+  actionpack (3.2.16) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.16) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.16) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.16) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.16) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.16) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.16) lib/rails/engine.rb:484:in `call'
+  railties (3.2.16) lib/rails/application.rb:231:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.16) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:55:32 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10.3ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:55:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:55:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:55:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:55:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:57:17 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7.9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:57:19 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 1.8ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8.3ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:19 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:19 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-01-14 14:57:21 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 50.0ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:57:23 -0500
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 8.5ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:23 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:57:25 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8.8ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:57:25 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:25 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:25 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:25 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:57:32 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 0.6ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9.6ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:57:45 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SEj+oFmwkK9Qj/eHqpyvnFdVbRWNtFWNZTLMK+xqxIc=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.8ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = '2014-01-14 19:57:45.897759', "sign_in_count" = 2, "updated_at" = '2014-01-14 19:57:45.900041' WHERE "users"."id" = 1[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 104.9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:57:45 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 5.8ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:45 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:45 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:57:50 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+  Rendered passes/index.html.erb within layouts/application (95.1ms)
+Completed 200 OK in 719.0ms (Views: 104.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:57:51 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:57:51 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:58:01 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 0.8ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8.1ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:58:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 14:58:14 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9p9ldc3EWchJxm+U3dtrE5IWH82v8l3x+7GY+TqOu24=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2014-01-14 19:57:45.897759', "current_sign_in_at" = '2014-01-14 19:58:14.938684', "sign_in_count" = 3, "updated_at" = '2014-01-14 19:58:14.939795' WHERE "users"."id" = 1[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 86.5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 14:58:14 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 4.8ms (Views: 4.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:14 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:58:14 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 14:58:20 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+  Rendered passes/index.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 316.2ms (Views: 40.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:21 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 14:58:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 14:58:21 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26.7ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4.7ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:00:43 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:01:10 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 1.0ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 87.6ms (Views: 12.2ms | ActiveRecord: 8.4ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:01:15 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aJfV5X5s+4V2nXFTMujRhugEKVOuRIrkTbQYej+4GXM=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1[0m
+Completed 401 Unauthorized in 88.9ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aJfV5X5s+4V2nXFTMujRhugEKVOuRIrkTbQYej+4GXM=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 83.9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:01:24 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aJfV5X5s+4V2nXFTMujRhugEKVOuRIrkTbQYej+4GXM=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.8ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2014-01-14 19:58:14.938684', "current_sign_in_at" = '2014-01-14 20:01:24.844515', "sign_in_count" = 4, "updated_at" = '2014-01-14 20:01:24.846880' WHERE "users"."id" = 1
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 93.5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:01:24 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 5.4ms (Views: 4.6ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:01:28 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered passes/index.html.erb within layouts/application (35.0ms)
+Completed 200 OK in 1021.9ms (Views: 39.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/passes/4ad6ff14f964a520760821e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+782-3535&contact%5Bphone%5D=6177823535&contact%5Btwitter%5D=ymca_boston&location%5Baddress%5D=615+Washington+St&location%5Bcc%5D=US&location%5Bcity%5D=Brighton&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=Oak+Square&location%5Bdistance%5D=2671&location%5Blat%5D=42.350781647023574&location%5Blng%5D=-71.16687331804117&location%5BpostalCode%5D=02135&location%5Bstate%5D=MA&name=YMCA+-+Oak+Square&restricted=true&stats%5BcheckinsCount%5D=7041&stats%5BtipCount%5D=15&stats%5BusersCount%5D=530&url=http%3A%2F%2Fwww.ymcaboston.org&verified=true" for 127.0.0.1 at 2014-01-14 15:01:45 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 782-3535", "phone"=>"6177823535", "twitter"=>"ymca_boston"}, "location"=>{"address"=>"615 Washington St", "cc"=>"US", "city"=>"Brighton", "country"=>"United States", "crossStreet"=>"Oak Square", "distance"=>"2671", "lat"=>"42.350781647023574", "lng"=>"-71.16687331804117", "postalCode"=>"02135", "state"=>"MA"}, "name"=>"YMCA - Oak Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"7041", "tipCount"=>"15", "usersCount"=>"530"}, "url"=>"http://www.ymcaboston.org", "verified"=>"true", "id"=>"4ad6ff14f964a520760821e3"}
+  Rendered passes/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 550.4ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/passes/4ad6ff14f964a520760821e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+782-3535&contact%5Bphone%5D=6177823535&contact%5Btwitter%5D=ymca_boston&location%5Baddress%5D=615+Washington+St&location%5Bcc%5D=US&location%5Bcity%5D=Brighton&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=Oak+Square&location%5Bdistance%5D=2671&location%5Blat%5D=42.350781647023574&location%5Blng%5D=-71.16687331804117&location%5BpostalCode%5D=02135&location%5Bstate%5D=MA&name=YMCA+-+Oak+Square&restricted=true&stats%5BcheckinsCount%5D=7041&stats%5BtipCount%5D=15&stats%5BusersCount%5D=530&url=http%3A%2F%2Fwww.ymcaboston.org&verified=true" for 127.0.0.1 at 2014-01-14 15:01:49 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 782-3535", "phone"=>"6177823535", "twitter"=>"ymca_boston"}, "location"=>{"address"=>"615 Washington St", "cc"=>"US", "city"=>"Brighton", "country"=>"United States", "crossStreet"=>"Oak Square", "distance"=>"2671", "lat"=>"42.350781647023574", "lng"=>"-71.16687331804117", "postalCode"=>"02135", "state"=>"MA"}, "name"=>"YMCA - Oak Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"7041", "tipCount"=>"15", "usersCount"=>"530"}, "url"=>"http://www.ymcaboston.org", "verified"=>"true", "id"=>"4ad6ff14f964a520760821e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 106.0ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:01:52 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5.2ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:08:51 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 0.9ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9.5ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:08:59 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o+U3Pvo6jSV7bO5q5zrL7Xn5v2GaS0iEhjGCm+3pt6Q=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2014-01-14 20:01:24.844515', "current_sign_in_at" = '2014-01-14 20:08:59.120351', "sign_in_count" = 5, "updated_at" = '2014-01-14 20:08:59.121297' WHERE "users"."id" = 1
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 88.7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:08:59 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 4.9ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:09:06 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered passes/index.html.erb within layouts/application (85.7ms)
+Completed 200 OK in 1039.6ms (Views: 89.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:15:28 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7.2ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:15:28 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4.1ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:15:29 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 1.2ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 36.0ms (Views: 8.3ms | ActiveRecord: 9.6ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:15:34 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YXTDeqfwWyJvWBgwzjnXHaHYryW4WAHSqRceNawALxw=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2014-01-14 20:08:59.120351', "current_sign_in_at" = '2014-01-14 20:15:34.196901', "sign_in_count" = 6, "updated_at" = '2014-01-14 20:15:34.198149' WHERE "users"."id" = 1
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 87.9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:15:34 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 5.0ms (Views: 4.2ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:15:40 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma", "authenticity_token"=>"8HKoFr/ypNdhKNLW7utINn76rvPaGoSmyypOEOrQejA="}
+  Rendered passes/index.html.erb within layouts/application (32.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 464.3ms (Views: 37.3ms | ActiveRecord: 0.6ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-14 15:16:14 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4.9ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:16:14 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4.6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:16:15 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 0.9ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7.9ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:16:24 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0IerC5wFEEBkWEtF1d2BlR0Poc5Mz4B22sCF6Nnuqek=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2014-01-14 20:15:34.196901', "current_sign_in_at" = '2014-01-14 20:16:24.494187', "sign_in_count" = 7, "updated_at" = '2014-01-14 20:16:24.495010' WHERE "users"."id" = 1[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 87.3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:16:24 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 4.5ms (Views: 3.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:16:29 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma", "authenticity_token"=>"p/lm9IYTgI6czslFLTfud9QZUmmcMNS6FU7YmuJ8M7Q="}
+  Rendered passes/index.html.erb within layouts/application (38.5ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 931.7ms (Views: 43.7ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-14 15:18:31 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 27.3ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:18:31 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5.6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:18:34 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 1.0ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 13.3ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:18:41 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"haT6qsdDwcwn+f49F+XNsofIEZkm6PPFY4YPUAok1ao=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE "users" SET "last_sign_in_at" = '2014-01-14 20:16:24.494187', "current_sign_in_at" = '2014-01-14 20:18:41.874774', "sign_in_count" = 8, "updated_at" = '2014-01-14 20:18:41.875690' WHERE "users"."id" = 1
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 86.6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:18:41 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 4.9ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:18:44 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"345 buckminster road, brookline, ma", "authenticity_token"=>"BJq5FopiW0Vlob0+uIw3hpBeQLP3bPzWdJruJt0CigA="}
+  Rendered passes/index.html.erb within layouts/application (71.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 553.1ms (Views: 78.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/passes/4a651942f964a5204dc71fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5Bfacebook%5D=20697868961&contact%5BformattedPhone%5D=%28617%29+353-2748&contact%5Bphone%5D=6173532748&contact%5Btwitter%5D=bu_tweets&location%5Baddress%5D=915+Commonwealth+Ave.&location%5Bcc%5D=US&location%5Bcity%5D=Boston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Harry+Agganis+%26+Buick&location%5Bdistance%5D=3154&location%5Blat%5D=42.351456878073535&location%5Blng%5D=-71.11648209393024&location%5BpostalCode%5D=02215&location%5Bstate%5D=MA&name=Boston+University+Fitness+%26+Recreation+Center&restricted=true&stats%5BcheckinsCount%5D=28574&stats%5BtipCount%5D=41&stats%5BusersCount%5D=2569&url=http%3A%2F%2Fbu.edu%2Ffitrec&verified=true" for 127.0.0.1 at 2014-01-14 15:18:45 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"facebook"=>"20697868961", "formattedPhone"=>"(617) 353-2748", "phone"=>"6173532748", "twitter"=>"bu_tweets"}, "location"=>{"address"=>"915 Commonwealth Ave.", "cc"=>"US", "city"=>"Boston", "country"=>"United States", "crossStreet"=>"btwn Harry Agganis & Buick", "distance"=>"3154", "lat"=>"42.351456878073535", "lng"=>"-71.11648209393024", "postalCode"=>"02215", "state"=>"MA"}, "name"=>"Boston University Fitness & Recreation Center", "restricted"=>"true", "stats"=>{"checkinsCount"=>"28574", "tipCount"=>"41", "usersCount"=>"2569"}, "url"=>"http://bu.edu/fitrec", "verified"=>"true", "id"=>"4a651942f964a5204dc71fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 116.0ms (Views: 7.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/passes/4ae4678ef964a5205d9a21e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+731-4177&contact%5Bphone%5D=6177314177&location%5Baddress%5D=15+Gorham+St&location%5Bcc%5D=US&location%5Bcity%5D=Allston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+Commonwealth+Ave.&location%5Bdistance%5D=2008&location%5Blat%5D=42.34831557491637&location%5Blng%5D=-71.13284952988874&location%5BpostalCode%5D=02134&location%5Bstate%5D=MA&name=Boston+Sports+Club&restricted=true&stats%5BcheckinsCount%5D=10299&stats%5BtipCount%5D=17&stats%5BusersCount%5D=663&url=http%3A%2F%2Fwww.mysportsclubs.com%2Fclubsched%2F_clubdetail.htm%3Frg%3DBSC%26a%3DBoston%26c%3D139&verified=false" for 127.0.0.1 at 2014-01-14 15:18:49 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 731-4177", "phone"=>"6177314177"}, "location"=>{"address"=>"15 Gorham St", "cc"=>"US", "city"=>"Allston", "country"=>"United States", "crossStreet"=>"at Commonwealth Ave.", "distance"=>"2008", "lat"=>"42.34831557491637", "lng"=>"-71.13284952988874", "postalCode"=>"02134", "state"=>"MA"}, "name"=>"Boston Sports Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"10299", "tipCount"=>"17", "usersCount"=>"663"}, "url"=>"http://www.mysportsclubs.com/clubsched/_clubdetail.htm?rg=BSC&a=Boston&c=139", "verified"=>"false", "id"=>"4ae4678ef964a5205d9a21e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 98.2ms (Views: 4.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/passes/4a164926f964a520fb781fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Ftravel%2Fhotel.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d1fa931735&categories%5B%5D%5Bname%5D=Hotel&categories%5B%5D%5Bparents%5D%5B%5D=Travel+%26+Transport&categories%5B%5D%5BpluralName%5D=Hotels&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Hotel&contact%5BformattedPhone%5D=%28617%29+236-2000&contact%5Bphone%5D=6172362000&contact%5Btwitter%5D=spg&location%5Baddress%5D=39+Dalton+St&location%5Bcc%5D=US&location%5Bcity%5D=Boston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+Belvedere+St.&location%5Bdistance%5D=5266&location%5Blat%5D=42.34631775437376&location%5Blng%5D=-71.0840106010437&location%5BpostalCode%5D=02199&location%5Bstate%5D=MA&name=Sheraton+Boston+Hotel&reservations%5Burl%5D=http%3A%2F%2Fwww.opentable.com%2Fsingle.aspx%3Frid%3D88444%26ref%3D9601&restricted=true&stats%5BcheckinsCount%5D=19283&stats%5BtipCount%5D=70&stats%5BusersCount%5D=8642&storeId=430&verified=true" for 127.0.0.1 at 2014-01-14 15:18:51 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/travel/hotel.png", "id"=>"4bf58dd8d48988d1fa931735", "name"=>"Hotel", "parents"=>["Travel & Transport"], "pluralName"=>"Hotels", "primary"=>"true", "shortName"=>"Hotel"}], "contact"=>{"formattedPhone"=>"(617) 236-2000", "phone"=>"6172362000", "twitter"=>"spg"}, "location"=>{"address"=>"39 Dalton St", "cc"=>"US", "city"=>"Boston", "country"=>"United States", "crossStreet"=>"at Belvedere St.", "distance"=>"5266", "lat"=>"42.34631775437376", "lng"=>"-71.0840106010437", "postalCode"=>"02199", "state"=>"MA"}, "name"=>"Sheraton Boston Hotel", "reservations"=>{"url"=>"http://www.opentable.com/single.aspx?rid=88444&ref=9601"}, "restricted"=>"true", "stats"=>{"checkinsCount"=>"19283", "tipCount"=>"70", "usersCount"=>"8642"}, "storeId"=>"430", "verified"=>"true", "id"=>"4a164926f964a520fb781fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 111.1ms (Views: 3.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/passes/4ae4678ef964a5205d9a21e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+731-4177&contact%5Bphone%5D=6177314177&location%5Baddress%5D=15+Gorham+St&location%5Bcc%5D=US&location%5Bcity%5D=Allston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+Commonwealth+Ave.&location%5Bdistance%5D=2008&location%5Blat%5D=42.34831557491637&location%5Blng%5D=-71.13284952988874&location%5BpostalCode%5D=02134&location%5Bstate%5D=MA&name=Boston+Sports+Club&restricted=true&stats%5BcheckinsCount%5D=10299&stats%5BtipCount%5D=17&stats%5BusersCount%5D=663&url=http%3A%2F%2Fwww.mysportsclubs.com%2Fclubsched%2F_clubdetail.htm%3Frg%3DBSC%26a%3DBoston%26c%3D139&verified=false" for 127.0.0.1 at 2014-01-14 15:19:09 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 731-4177", "phone"=>"6177314177"}, "location"=>{"address"=>"15 Gorham St", "cc"=>"US", "city"=>"Allston", "country"=>"United States", "crossStreet"=>"at Commonwealth Ave.", "distance"=>"2008", "lat"=>"42.34831557491637", "lng"=>"-71.13284952988874", "postalCode"=>"02134", "state"=>"MA"}, "name"=>"Boston Sports Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"10299", "tipCount"=>"17", "usersCount"=>"663"}, "url"=>"http://www.mysportsclubs.com/clubsched/_clubdetail.htm?rg=BSC&a=Boston&c=139", "verified"=>"false", "id"=>"4ae4678ef964a5205d9a21e3"}
+  Rendered passes/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 153.8ms (Views: 5.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/passes/4dbda28affcbcd48566f9695?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28617%29+208-4555&contact%5Bphone%5D=6172084555&contact%5Btwitter%5D=gymit&location%5Baddress%5D=920+Commonwealth+Ave&location%5Bcc%5D=US&location%5Bcity%5D=Brookline&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+St.+Paul+%26+Pleasant&location%5Bdistance%5D=3087&location%5Blat%5D=42.351097587981315&location%5Blng%5D=-71.11714213713333&location%5BpostalCode%5D=02446&location%5Bstate%5D=MA&name=GymIt&restricted=true&stats%5BcheckinsCount%5D=11560&stats%5BtipCount%5D=22&stats%5BusersCount%5D=737&url=http%3A%2F%2Fwww.gymit.com&verified=false" for 127.0.0.1 at 2014-01-14 15:27:24 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(617) 208-4555", "phone"=>"6172084555", "twitter"=>"gymit"}, "location"=>{"address"=>"920 Commonwealth Ave", "cc"=>"US", "city"=>"Brookline", "country"=>"United States", "crossStreet"=>"btwn St. Paul & Pleasant", "distance"=>"3087", "lat"=>"42.351097587981315", "lng"=>"-71.11714213713333", "postalCode"=>"02446", "state"=>"MA"}, "name"=>"GymIt", "restricted"=>"true", "stats"=>{"checkinsCount"=>"11560", "tipCount"=>"22", "usersCount"=>"737"}, "url"=>"http://www.gymit.com", "verified"=>"false", "id"=>"4dbda28affcbcd48566f9695"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 574.0ms (Views: 6.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4ac12cfdf964a5201b9620e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+924-0669&contact%5Bphone%5D=6179240669&location%5Baddress%5D=311+Arsenal+St&location%5Bcc%5D=US&location%5Bcity%5D=Watertown&location%5Bcountry%5D=United+States&location%5Bdistance%5D=3785&location%5Blat%5D=42.363164&location%5Blng%5D=-71.16611838340759&location%5BpostalCode%5D=02472&location%5Bstate%5D=MA&name=Boston+Sports+Club&restricted=true&stats%5BcheckinsCount%5D=8930&stats%5BtipCount%5D=19&stats%5BusersCount%5D=565&url=http%3A%2F%2Fwww.mysportsclubs.com&verified=false" for 127.0.0.1 at 2014-01-14 15:27:27 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 924-0669", "phone"=>"6179240669"}, "location"=>{"address"=>"311 Arsenal St", "cc"=>"US", "city"=>"Watertown", "country"=>"United States", "distance"=>"3785", "lat"=>"42.363164", "lng"=>"-71.16611838340759", "postalCode"=>"02472", "state"=>"MA"}, "name"=>"Boston Sports Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"8930", "tipCount"=>"19", "usersCount"=>"565"}, "url"=>"http://www.mysportsclubs.com", "verified"=>"false", "id"=>"4ac12cfdf964a5201b9620e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 113.6ms (Views: 4.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:28 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4ad6ff14f964a520760821e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+782-3535&contact%5Bphone%5D=6177823535&contact%5Btwitter%5D=ymca_boston&location%5Baddress%5D=615+Washington+St&location%5Bcc%5D=US&location%5Bcity%5D=Brighton&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=Oak+Square&location%5Bdistance%5D=2671&location%5Blat%5D=42.350781647023574&location%5Blng%5D=-71.16687331804117&location%5BpostalCode%5D=02135&location%5Bstate%5D=MA&name=YMCA+-+Oak+Square&restricted=true&stats%5BcheckinsCount%5D=7041&stats%5BtipCount%5D=15&stats%5BusersCount%5D=530&url=http%3A%2F%2Fwww.ymcaboston.org&verified=true" for 127.0.0.1 at 2014-01-14 15:27:30 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 782-3535", "phone"=>"6177823535", "twitter"=>"ymca_boston"}, "location"=>{"address"=>"615 Washington St", "cc"=>"US", "city"=>"Brighton", "country"=>"United States", "crossStreet"=>"Oak Square", "distance"=>"2671", "lat"=>"42.350781647023574", "lng"=>"-71.16687331804117", "postalCode"=>"02135", "state"=>"MA"}, "name"=>"YMCA - Oak Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"7041", "tipCount"=>"15", "usersCount"=>"530"}, "url"=>"http://www.ymcaboston.org", "verified"=>"true", "id"=>"4ad6ff14f964a520760821e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 192.8ms (Views: 68.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4a651942f964a5204dc71fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5Bfacebook%5D=20697868961&contact%5BformattedPhone%5D=%28617%29+353-2748&contact%5Bphone%5D=6173532748&contact%5Btwitter%5D=bu_tweets&location%5Baddress%5D=915+Commonwealth+Ave.&location%5Bcc%5D=US&location%5Bcity%5D=Boston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Harry+Agganis+%26+Buick&location%5Bdistance%5D=3154&location%5Blat%5D=42.351456878073535&location%5Blng%5D=-71.11648209393024&location%5BpostalCode%5D=02215&location%5Bstate%5D=MA&name=Boston+University+Fitness+%26+Recreation+Center&restricted=true&stats%5BcheckinsCount%5D=28574&stats%5BtipCount%5D=41&stats%5BusersCount%5D=2569&url=http%3A%2F%2Fbu.edu%2Ffitrec&verified=true" for 127.0.0.1 at 2014-01-14 15:27:32 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"facebook"=>"20697868961", "formattedPhone"=>"(617) 353-2748", "phone"=>"6173532748", "twitter"=>"bu_tweets"}, "location"=>{"address"=>"915 Commonwealth Ave.", "cc"=>"US", "city"=>"Boston", "country"=>"United States", "crossStreet"=>"btwn Harry Agganis & Buick", "distance"=>"3154", "lat"=>"42.351456878073535", "lng"=>"-71.11648209393024", "postalCode"=>"02215", "state"=>"MA"}, "name"=>"Boston University Fitness & Recreation Center", "restricted"=>"true", "stats"=>{"checkinsCount"=>"28574", "tipCount"=>"41", "usersCount"=>"2569"}, "url"=>"http://bu.edu/fitrec", "verified"=>"true", "id"=>"4a651942f964a5204dc71fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 142.3ms (Views: 5.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4b1fac4df964a520f72724e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+266-7400&contact%5Bphone%5D=6172667400&location%5Baddress%5D=201+Brookline+Ave&location%5Bcc%5D=US&location%5Bcity%5D=Boston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Kilmarnock+St+%26+Park+Dr.&location%5Bdistance%5D=3797&location%5Blat%5D=42.343943056067424&location%5Blng%5D=-71.10173007442376&location%5BpostalCode%5D=02215&location%5Bstate%5D=MA&name=Boston+Sports+Club&restricted=true&stats%5BcheckinsCount%5D=5831&stats%5BtipCount%5D=6&stats%5BusersCount%5D=432&verified=false" for 127.0.0.1 at 2014-01-14 15:27:35 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 266-7400", "phone"=>"6172667400"}, "location"=>{"address"=>"201 Brookline Ave", "cc"=>"US", "city"=>"Boston", "country"=>"United States", "crossStreet"=>"btwn Kilmarnock St & Park Dr.", "distance"=>"3797", "lat"=>"42.343943056067424", "lng"=>"-71.10173007442376", "postalCode"=>"02215", "state"=>"MA"}, "name"=>"Boston Sports Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"5831", "tipCount"=>"6", "usersCount"=>"432"}, "verified"=>"false", "id"=>"4b1fac4df964a520f72724e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 104.0ms (Views: 4.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4aaa528ef964a520b35520e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+497-4454&contact%5Bphone%5D=6174974454&location%5Baddress%5D=36+White+St&location%5Bcc%5D=US&location%5Bcity%5D=Cambridge&location%5Bcountry%5D=United+States&location%5Bdistance%5D=6619&location%5Blat%5D=42.389000612592945&location%5Blng%5D=-71.11899316965396&location%5BpostalCode%5D=02140&location%5Bstate%5D=MA&menu%5Banchor%5D=View+Menu&menu%5Blabel%5D=Menu&menu%5BmobileUrl%5D=https%3A%2F%2Ffoursquare.com%2Fv%2F4aaa528ef964a520b35520e3%2Fdevice_menu&menu%5Btype%5D=Menu&menu%5Burl%5D=https%3A%2F%2Ffoursquare.com%2Fv%2Fhealthworks-fitness-center%2F4aaa528ef964a520b35520e3%2Fmenu&name=Healthworks+Fitness+Center&restricted=true&stats%5BcheckinsCount%5D=6919&stats%5BtipCount%5D=19&stats%5BusersCount%5D=344&verified=false" for 127.0.0.1 at 2014-01-14 15:27:37 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 497-4454", "phone"=>"6174974454"}, "location"=>{"address"=>"36 White St", "cc"=>"US", "city"=>"Cambridge", "country"=>"United States", "distance"=>"6619", "lat"=>"42.389000612592945", "lng"=>"-71.11899316965396", "postalCode"=>"02140", "state"=>"MA"}, "menu"=>{"anchor"=>"View Menu", "label"=>"Menu", "mobileUrl"=>"https://foursquare.com/v/4aaa528ef964a520b35520e3/device_menu", "type"=>"Menu", "url"=>"https://foursquare.com/v/healthworks-fitness-center/4aaa528ef964a520b35520e3/menu"}, "name"=>"Healthworks Fitness Center", "restricted"=>"true", "stats"=>{"checkinsCount"=>"6919", "tipCount"=>"19", "usersCount"=>"344"}, "verified"=>"false", "id"=>"4aaa528ef964a520b35520e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 112.1ms (Views: 4.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4ab213e1f964a520b06a20e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28617%29+776-0086&contact%5Bphone%5D=6177760086&contact%5Btwitter%5D=bscdavis&location%5Baddress%5D=One+Davis+Sq&location%5Bcc%5D=US&location%5Bcity%5D=Somerville&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=Highland+Ave&location%5Bdistance%5D=7311&location%5Blat%5D=42.39633324513666&location%5Blng%5D=-71.12274169921875&location%5BpostalCode%5D=02144-2904&location%5Bstate%5D=MA&name=Boston+Sports+Club&restricted=true&stats%5BcheckinsCount%5D=10744&stats%5BtipCount%5D=18&stats%5BusersCount%5D=647&url=http%3A%2F%2Fwww.mysportscompany.com&verified=false" for 127.0.0.1 at 2014-01-14 15:27:39 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(617) 776-0086", "phone"=>"6177760086", "twitter"=>"bscdavis"}, "location"=>{"address"=>"One Davis Sq", "cc"=>"US", "city"=>"Somerville", "country"=>"United States", "crossStreet"=>"Highland Ave", "distance"=>"7311", "lat"=>"42.39633324513666", "lng"=>"-71.12274169921875", "postalCode"=>"02144-2904", "state"=>"MA"}, "name"=>"Boston Sports Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"10744", "tipCount"=>"18", "usersCount"=>"647"}, "url"=>"http://www.mysportscompany.com", "verified"=>"false", "id"=>"4ab213e1f964a520b06a20e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 201.9ms (Views: 4.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4a164926f964a520fb781fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Ftravel%2Fhotel.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d1fa931735&categories%5B%5D%5Bname%5D=Hotel&categories%5B%5D%5Bparents%5D%5B%5D=Travel+%26+Transport&categories%5B%5D%5BpluralName%5D=Hotels&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Hotel&contact%5BformattedPhone%5D=%28617%29+236-2000&contact%5Bphone%5D=6172362000&contact%5Btwitter%5D=spg&location%5Baddress%5D=39+Dalton+St&location%5Bcc%5D=US&location%5Bcity%5D=Boston&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+Belvedere+St.&location%5Bdistance%5D=5266&location%5Blat%5D=42.34631775437376&location%5Blng%5D=-71.0840106010437&location%5BpostalCode%5D=02199&location%5Bstate%5D=MA&name=Sheraton+Boston+Hotel&reservations%5Burl%5D=http%3A%2F%2Fwww.opentable.com%2Fsingle.aspx%3Frid%3D88444%26ref%3D9601&restricted=true&stats%5BcheckinsCount%5D=19283&stats%5BtipCount%5D=70&stats%5BusersCount%5D=8642&storeId=430&verified=true" for 127.0.0.1 at 2014-01-14 15:27:49 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/travel/hotel.png", "id"=>"4bf58dd8d48988d1fa931735", "name"=>"Hotel", "parents"=>["Travel & Transport"], "pluralName"=>"Hotels", "primary"=>"true", "shortName"=>"Hotel"}], "contact"=>{"formattedPhone"=>"(617) 236-2000", "phone"=>"6172362000", "twitter"=>"spg"}, "location"=>{"address"=>"39 Dalton St", "cc"=>"US", "city"=>"Boston", "country"=>"United States", "crossStreet"=>"at Belvedere St.", "distance"=>"5266", "lat"=>"42.34631775437376", "lng"=>"-71.0840106010437", "postalCode"=>"02199", "state"=>"MA"}, "name"=>"Sheraton Boston Hotel", "reservations"=>{"url"=>"http://www.opentable.com/single.aspx?rid=88444&ref=9601"}, "restricted"=>"true", "stats"=>{"checkinsCount"=>"19283", "tipCount"=>"70", "usersCount"=>"8642"}, "storeId"=>"430", "verified"=>"true", "id"=>"4a164926f964a520fb781fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 125.1ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:27:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-14 15:29:13 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4.1ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:29:13 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6.4ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:29:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:35:59 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 0.8ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10.9ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:35:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:36:04 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6.7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:04 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:36:09 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"112 East 17th Street, New York, NY", "authenticity_token"=>"mt1tqzG6kMj+rI+hUHuhu1z7gVLeQqyjdQyE5u5wt9U="}
+  Rendered passes/index.html.erb within layouts/application (95.6ms)
+Completed 200 OK in 384.1ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4d4f4dc207b1a09016acf83b?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+208-1300&contact%5Bphone%5D=2122081300&contact%5Btwitter%5D=soulcycle&location%5Baddress%5D=12+E+18th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Broadway+%26+5th+Ave&location%5Bdistance%5D=328&location%5Blat%5D=40.73814262308764&location%5Blng%5D=-73.99070184444935&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=SoulCycle+Union+Square&restricted=true&stats%5BcheckinsCount%5D=24207&stats%5BtipCount%5D=68&stats%5BusersCount%5D=3252&verified=true" for 127.0.0.1 at 2014-01-14 15:36:10 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 208-1300", "phone"=>"2122081300", "twitter"=>"soulcycle"}, "location"=>{"address"=>"12 E 18th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn Broadway & 5th Ave", "distance"=>"328", "lat"=>"40.73814262308764", "lng"=>"-73.99070184444935", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"SoulCycle Union Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"24207", "tipCount"=>"68", "usersCount"=>"3252"}, "verified"=>"true", "id"=>"4d4f4dc207b1a09016acf83b"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 225.0ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4b1a7c88f964a52003eb23e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5Bfacebook%5D=103256838688&contact%5BformattedPhone%5D=%28212%29+992-8500&contact%5Bphone%5D=2129928500&contact%5Btwitter%5D=nyuniversity&location%5Baddress%5D=140+E+14th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+3rd+%26+4th+Ave.&location%5Bdistance%5D=283&location%5Blat%5D=40.733405809930936&location%5Blng%5D=-73.98798157907179&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=NYU+Palladium+Athletic+Facility&restricted=true&stats%5BcheckinsCount%5D=20940&stats%5BtipCount%5D=30&stats%5BusersCount%5D=2234&storeId=&verified=true" for 127.0.0.1 at 2014-01-14 15:36:13 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"facebook"=>"103256838688", "formattedPhone"=>"(212) 992-8500", "phone"=>"2129928500", "twitter"=>"nyuniversity"}, "location"=>{"address"=>"140 E 14th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn 3rd & 4th Ave.", "distance"=>"283", "lat"=>"40.733405809930936", "lng"=>"-73.98798157907179", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"NYU Palladium Athletic Facility", "restricted"=>"true", "stats"=>{"checkinsCount"=>"20940", "tipCount"=>"30", "usersCount"=>"2234"}, "storeId"=>"", "verified"=>"true", "id"=>"4b1a7c88f964a52003eb23e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 194.9ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4a888403f964a520bb0620e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+780-9300&contact%5Bphone%5D=2127809300&contact%5Btwitter%5D=equinox&location%5Baddress%5D=897+Broadway&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+19th+%26+20th+St&location%5Bdistance%5D=364&location%5Blat%5D=40.738949&location%5Blng%5D=-73.989828&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=Equinox&restricted=true&stats%5BcheckinsCount%5D=41316&stats%5BtipCount%5D=75&stats%5BusersCount%5D=3935&storeId=&url=http%3A%2F%2Fwww.equinox.com&verified=true" for 127.0.0.1 at 2014-01-14 15:36:15 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 780-9300", "phone"=>"2127809300", "twitter"=>"equinox"}, "location"=>{"address"=>"897 Broadway", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn 19th & 20th St", "distance"=>"364", "lat"=>"40.738949", "lng"=>"-73.989828", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"Equinox", "restricted"=>"true", "stats"=>{"checkinsCount"=>"41316", "tipCount"=>"75", "usersCount"=>"3935"}, "storeId"=>"", "url"=>"http://www.equinox.com", "verified"=>"true", "id"=>"4a888403f964a520bb0620e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 134.6ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/49bad9acf964a520b8531fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+533-0001&contact%5Bphone%5D=2125330001&contact%5Btwitter%5D=crunchgym&location%5Baddress%5D=113+4th+Ave&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+E+12th+St&location%5Bdistance%5D=376&location%5Blat%5D=40.73289&location%5Blng%5D=-73.99&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=Crunch&restricted=true&stats%5BcheckinsCount%5D=33843&stats%5BtipCount%5D=53&stats%5BusersCount%5D=3074&storeId=Union+Square&url=http%3A%2F%2Fad.doubleclick.net%2Fclk%3B260269758%3B91555807%3By%3Fhttp%3A%2F%2Fwww.crunch.com%2Fguest-passes%2F%3Fd%3D7&verified=true" for 127.0.0.1 at 2014-01-14 15:36:16 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 533-0001", "phone"=>"2125330001", "twitter"=>"crunchgym"}, "location"=>{"address"=>"113 4th Ave", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"at E 12th St", "distance"=>"376", "lat"=>"40.73289", "lng"=>"-73.99", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"Crunch", "restricted"=>"true", "stats"=>{"checkinsCount"=>"33843", "tipCount"=>"53", "usersCount"=>"3074"}, "storeId"=>"Union Square", "url"=>"http://ad.doubleclick.net/clk;260269758;91555807;y?http://www.crunch.com/guest-passes/?d=7", "verified"=>"true", "id"=>"49bad9acf964a520b8531fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 309.7ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:16 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4b696ecdf964a5201fa22be3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+242-9433&contact%5Bphone%5D=2122429433&contact%5Btwitter%5D=flywheel&location%5Baddress%5D=39+W+21st+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+6th+Ave&location%5Bdistance%5D=692&location%5Blat%5D=40.74109555804945&location%5Blng%5D=-73.99270534515381&location%5BpostalCode%5D=10010&location%5Bstate%5D=NY&menu%5Banchor%5D=View+Menu&menu%5Blabel%5D=Menu&menu%5BmobileUrl%5D=https%3A%2F%2Ffoursquare.com%2Fv%2F4b696ecdf964a5201fa22be3%2Fdevice_menu&menu%5Btype%5D=Menu&menu%5Burl%5D=https%3A%2F%2Ffoursquare.com%2Fv%2Fflywheel%2F4b696ecdf964a5201fa22be3%2Fmenu&name=Flywheel&restricted=true&stats%5BcheckinsCount%5D=17822&stats%5BtipCount%5D=63&stats%5BusersCount%5D=2067&storeId=&url=http%3A%2F%2Fnew-york.flywheelsports.com&verified=true" for 127.0.0.1 at 2014-01-14 15:36:17 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 242-9433", "phone"=>"2122429433", "twitter"=>"flywheel"}, "location"=>{"address"=>"39 W 21st St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"at 6th Ave", "distance"=>"692", "lat"=>"40.74109555804945", "lng"=>"-73.99270534515381", "postalCode"=>"10010", "state"=>"NY"}, "menu"=>{"anchor"=>"View Menu", "label"=>"Menu", "mobileUrl"=>"https://foursquare.com/v/4b696ecdf964a5201fa22be3/device_menu", "type"=>"Menu", "url"=>"https://foursquare.com/v/flywheel/4b696ecdf964a5201fa22be3/menu"}, "name"=>"Flywheel", "restricted"=>"true", "stats"=>{"checkinsCount"=>"17822", "tipCount"=>"63", "usersCount"=>"2067"}, "storeId"=>"", "url"=>"http://new-york.flywheelsports.com", "verified"=>"true", "id"=>"4b696ecdf964a5201fa22be3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 115.7ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4558b83bf964a5204b3d1fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28212%29+989-2300&contact%5Bphone%5D=2129892300&contact%5Btwitter%5D=nyhrc&location%5Baddress%5D=60+W+23rd+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+6th+Ave&location%5Bdistance%5D=832&location%5Blat%5D=40.742690954208726&location%5Blng%5D=-73.99237186168206&location%5BpostalCode%5D=10010&location%5Bstate%5D=NY&name=New+York+Health+%26+Racquet+Club&restricted=true&stats%5BcheckinsCount%5D=27856&stats%5BtipCount%5D=53&stats%5BusersCount%5D=2187&storeId=&url=http%3A%2F%2Fnyhrc.com%2Ffind-club%2F23rd-street&verified=true" for 127.0.0.1 at 2014-01-14 15:36:19 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(212) 989-2300", "phone"=>"2129892300", "twitter"=>"nyhrc"}, "location"=>{"address"=>"60 W 23rd St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"at 6th Ave", "distance"=>"832", "lat"=>"40.742690954208726", "lng"=>"-73.99237186168206", "postalCode"=>"10010", "state"=>"NY"}, "name"=>"New York Health & Racquet Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"27856", "tipCount"=>"53", "usersCount"=>"2187"}, "storeId"=>"", "url"=>"http://nyhrc.com/find-club/23rd-street", "verified"=>"true", "id"=>"4558b83bf964a5204b3d1fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 153.4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:36:21 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 1.0ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8.4ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-14 15:36:25 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CSi+S3xt3BBPBww8OynjUth9cZQLcaqwukZd9niweck=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2014-01-14 20:18:41.874774', "current_sign_in_at" = '2014-01-14 20:36:25.940407', "sign_in_count" = 9, "updated_at" = '2014-01-14 20:36:25.941299' WHERE "users"."id" = 1[0m
+  [1m[35m (1.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 87.6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:36:25 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 5.0ms (Views: 4.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:25 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:36:35 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"112 East 17th Street, New York, NY", "authenticity_token"=>"WU8rr53yu5AFQs7WGlc0eIOLc0EpfPgf0c6tE/RFLU8="}
+  Rendered passes/index.html.erb within layouts/application (33.3ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 633.0ms (Views: 37.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4d4f4dc207b1a09016acf83b?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+208-1300&contact%5Bphone%5D=2122081300&contact%5Btwitter%5D=soulcycle&location%5Baddress%5D=12+E+18th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Broadway+%26+5th+Ave&location%5Bdistance%5D=328&location%5Blat%5D=40.73814262308764&location%5Blng%5D=-73.99070184444935&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=SoulCycle+Union+Square&restricted=true&stats%5BcheckinsCount%5D=24207&stats%5BtipCount%5D=68&stats%5BusersCount%5D=3252&verified=true" for 127.0.0.1 at 2014-01-14 15:36:36 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 208-1300", "phone"=>"2122081300", "twitter"=>"soulcycle"}, "location"=>{"address"=>"12 E 18th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn Broadway & 5th Ave", "distance"=>"328", "lat"=>"40.73814262308764", "lng"=>"-73.99070184444935", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"SoulCycle Union Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"24207", "tipCount"=>"68", "usersCount"=>"3252"}, "verified"=>"true", "id"=>"4d4f4dc207b1a09016acf83b"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 97.2ms (Views: 4.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:36 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4b1a7c88f964a52003eb23e3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5Bfacebook%5D=103256838688&contact%5BformattedPhone%5D=%28212%29+992-8500&contact%5Bphone%5D=2129928500&contact%5Btwitter%5D=nyuniversity&location%5Baddress%5D=140+E+14th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+3rd+%26+4th+Ave.&location%5Bdistance%5D=283&location%5Blat%5D=40.733405809930936&location%5Blng%5D=-73.98798157907179&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=NYU+Palladium+Athletic+Facility&restricted=true&stats%5BcheckinsCount%5D=20940&stats%5BtipCount%5D=30&stats%5BusersCount%5D=2234&storeId=&verified=true" for 127.0.0.1 at 2014-01-14 15:36:38 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"facebook"=>"103256838688", "formattedPhone"=>"(212) 992-8500", "phone"=>"2129928500", "twitter"=>"nyuniversity"}, "location"=>{"address"=>"140 E 14th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn 3rd & 4th Ave.", "distance"=>"283", "lat"=>"40.733405809930936", "lng"=>"-73.98798157907179", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"NYU Palladium Athletic Facility", "restricted"=>"true", "stats"=>{"checkinsCount"=>"20940", "tipCount"=>"30", "usersCount"=>"2234"}, "storeId"=>"", "verified"=>"true", "id"=>"4b1a7c88f964a52003eb23e3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 142.0ms (Views: 4.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4b696ecdf964a5201fa22be3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+242-9433&contact%5Bphone%5D=2122429433&contact%5Btwitter%5D=flywheel&location%5Baddress%5D=39+W+21st+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+6th+Ave&location%5Bdistance%5D=692&location%5Blat%5D=40.74109555804945&location%5Blng%5D=-73.99270534515381&location%5BpostalCode%5D=10010&location%5Bstate%5D=NY&menu%5Banchor%5D=View+Menu&menu%5Blabel%5D=Menu&menu%5BmobileUrl%5D=https%3A%2F%2Ffoursquare.com%2Fv%2F4b696ecdf964a5201fa22be3%2Fdevice_menu&menu%5Btype%5D=Menu&menu%5Burl%5D=https%3A%2F%2Ffoursquare.com%2Fv%2Fflywheel%2F4b696ecdf964a5201fa22be3%2Fmenu&name=Flywheel&restricted=true&stats%5BcheckinsCount%5D=17822&stats%5BtipCount%5D=63&stats%5BusersCount%5D=2067&storeId=&url=http%3A%2F%2Fnew-york.flywheelsports.com&verified=true" for 127.0.0.1 at 2014-01-14 15:36:39 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 242-9433", "phone"=>"2122429433", "twitter"=>"flywheel"}, "location"=>{"address"=>"39 W 21st St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"at 6th Ave", "distance"=>"692", "lat"=>"40.74109555804945", "lng"=>"-73.99270534515381", "postalCode"=>"10010", "state"=>"NY"}, "menu"=>{"anchor"=>"View Menu", "label"=>"Menu", "mobileUrl"=>"https://foursquare.com/v/4b696ecdf964a5201fa22be3/device_menu", "type"=>"Menu", "url"=>"https://foursquare.com/v/flywheel/4b696ecdf964a5201fa22be3/menu"}, "name"=>"Flywheel", "restricted"=>"true", "stats"=>{"checkinsCount"=>"17822", "tipCount"=>"63", "usersCount"=>"2067"}, "storeId"=>"", "url"=>"http://new-york.flywheelsports.com", "verified"=>"true", "id"=>"4b696ecdf964a5201fa22be3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 123.2ms (Views: 4.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:39 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4558b83bf964a5204b3d1fe3?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d176941735&categories%5B%5D%5Bname%5D=Gym&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5Bparents%5D%5B%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5BpluralName%5D=Gyms&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym&contact%5BformattedPhone%5D=%28212%29+989-2300&contact%5Bphone%5D=2129892300&contact%5Btwitter%5D=nyhrc&location%5Baddress%5D=60+W+23rd+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=at+6th+Ave&location%5Bdistance%5D=832&location%5Blat%5D=40.742690954208726&location%5Blng%5D=-73.99237186168206&location%5BpostalCode%5D=10010&location%5Bstate%5D=NY&name=New+York+Health+%26+Racquet+Club&restricted=true&stats%5BcheckinsCount%5D=27856&stats%5BtipCount%5D=53&stats%5BusersCount%5D=2187&storeId=&url=http%3A%2F%2Fnyhrc.com%2Ffind-club%2F23rd-street&verified=true" for 127.0.0.1 at 2014-01-14 15:36:41 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d176941735", "name"=>"Gym", "parents"=>["Shop & Service", "Gym / Fitness Center"], "pluralName"=>"Gyms", "primary"=>"true", "shortName"=>"Gym"}], "contact"=>{"formattedPhone"=>"(212) 989-2300", "phone"=>"2129892300", "twitter"=>"nyhrc"}, "location"=>{"address"=>"60 W 23rd St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"at 6th Ave", "distance"=>"832", "lat"=>"40.742690954208726", "lng"=>"-73.99237186168206", "postalCode"=>"10010", "state"=>"NY"}, "name"=>"New York Health & Racquet Club", "restricted"=>"true", "stats"=>{"checkinsCount"=>"27856", "tipCount"=>"53", "usersCount"=>"2187"}, "storeId"=>"", "url"=>"http://nyhrc.com/find-club/23rd-street", "verified"=>"true", "id"=>"4558b83bf964a5204b3d1fe3"}
+  Rendered passes/new.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+Completed 200 OK in 697.2ms (Views: 3.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:41 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:36:47 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+Completed 200 OK in 68.4ms (Views: 67.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-14 15:36:50 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 5.1ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:36:50 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4.4ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:36:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-14 15:37:47 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30.8ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:37:47 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:47 -0500
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:47 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-14 15:37:52 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"112 East 17th Street, New York, NY", "authenticity_token"=>"K+BpoF7BRW5AYCT9k0xbJLtYs0BV/kyop6a1374bphk="}
+  Rendered passes/index.html.erb within layouts/application (38.7ms)
+Completed 200 OK in 611.7ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:37:53 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:53 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:53 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:53 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4d4f4dc207b1a09016acf83b?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+208-1300&contact%5Bphone%5D=2122081300&contact%5Btwitter%5D=soulcycle&location%5Baddress%5D=12+E+18th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Broadway+%26+5th+Ave&location%5Bdistance%5D=328&location%5Blat%5D=40.73814262308764&location%5Blng%5D=-73.99070184444935&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=SoulCycle+Union+Square&restricted=true&stats%5BcheckinsCount%5D=24207&stats%5BtipCount%5D=68&stats%5BusersCount%5D=3252&verified=true" for 127.0.0.1 at 2014-01-14 15:37:56 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 208-1300", "phone"=>"2122081300", "twitter"=>"soulcycle"}, "location"=>{"address"=>"12 E 18th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn Broadway & 5th Ave", "distance"=>"328", "lat"=>"40.73814262308764", "lng"=>"-73.99070184444935", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"SoulCycle Union Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"24207", "tipCount"=>"68", "usersCount"=>"3252"}, "verified"=>"true", "id"=>"4d4f4dc207b1a09016acf83b"}
+  Rendered passes/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 102.3ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:56 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:56 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:37:56 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:37:56 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4d4f4dc207b1a09016acf83b?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+208-1300&contact%5Bphone%5D=2122081300&contact%5Btwitter%5D=soulcycle&location%5Baddress%5D=12+E+18th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Broadway+%26+5th+Ave&location%5Bdistance%5D=328&location%5Blat%5D=40.73814262308764&location%5Blng%5D=-73.99070184444935&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=SoulCycle+Union+Square&restricted=true&stats%5BcheckinsCount%5D=24207&stats%5BtipCount%5D=68&stats%5BusersCount%5D=3252&verified=true" for 127.0.0.1 at 2014-01-14 15:38:29 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 208-1300", "phone"=>"2122081300", "twitter"=>"soulcycle"}, "location"=>{"address"=>"12 E 18th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn Broadway & 5th Ave", "distance"=>"328", "lat"=>"40.73814262308764", "lng"=>"-73.99070184444935", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"SoulCycle Union Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"24207", "tipCount"=>"68", "usersCount"=>"3252"}, "verified"=>"true", "id"=>"4d4f4dc207b1a09016acf83b"}
+  Rendered passes/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 453.9ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:38:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4d4f4dc207b1a09016acf83b?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+208-1300&contact%5Bphone%5D=2122081300&contact%5Btwitter%5D=soulcycle&location%5Baddress%5D=12+E+18th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Broadway+%26+5th+Ave&location%5Bdistance%5D=328&location%5Blat%5D=40.73814262308764&location%5Blng%5D=-73.99070184444935&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=SoulCycle+Union+Square&restricted=true&stats%5BcheckinsCount%5D=24207&stats%5BtipCount%5D=68&stats%5BusersCount%5D=3252&verified=true" for 127.0.0.1 at 2014-01-14 15:38:48 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 208-1300", "phone"=>"2122081300", "twitter"=>"soulcycle"}, "location"=>{"address"=>"12 E 18th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn Broadway & 5th Ave", "distance"=>"328", "lat"=>"40.73814262308764", "lng"=>"-73.99070184444935", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"SoulCycle Union Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"24207", "tipCount"=>"68", "usersCount"=>"3252"}, "verified"=>"true", "id"=>"4d4f4dc207b1a09016acf83b"}
+  Rendered passes/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 148.9ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:38:48 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:48 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:48 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:48 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/4d4f4dc207b1a09016acf83b?&likes%5Bcount%5D=0&categories%5B%5D%5Bicon%5D=https%3A%2F%2Fss1.4sqi.net%2Fimg%2Fcategories%2Fbuilding%2Fgym.png&categories%5B%5D%5Bid%5D=4bf58dd8d48988d175941735&categories%5B%5D%5Bname%5D=Gym+%2F+Fitness+Center&categories%5B%5D%5Bparents%5D%5B%5D=Shop+%26+Service&categories%5B%5D%5BpluralName%5D=Gyms+or+Fitness+Centers&categories%5B%5D%5Bprimary%5D=true&categories%5B%5D%5BshortName%5D=Gym+%2F+Fitness&contact%5BformattedPhone%5D=%28212%29+208-1300&contact%5Bphone%5D=2122081300&contact%5Btwitter%5D=soulcycle&location%5Baddress%5D=12+E+18th+St&location%5Bcc%5D=US&location%5Bcity%5D=New+York&location%5Bcountry%5D=United+States&location%5BcrossStreet%5D=btwn+Broadway+%26+5th+Ave&location%5Bdistance%5D=328&location%5Blat%5D=40.73814262308764&location%5Blng%5D=-73.99070184444935&location%5BpostalCode%5D=10003&location%5Bstate%5D=NY&name=SoulCycle+Union+Square&restricted=true&stats%5BcheckinsCount%5D=24207&stats%5BtipCount%5D=68&stats%5BusersCount%5D=3252&verified=true" for 127.0.0.1 at 2014-01-14 15:38:50 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"likes"=>{"count"=>"0"}, "categories"=>[{"icon"=>"https://ss1.4sqi.net/img/categories/building/gym.png", "id"=>"4bf58dd8d48988d175941735", "name"=>"Gym / Fitness Center", "parents"=>["Shop & Service"], "pluralName"=>"Gyms or Fitness Centers", "primary"=>"true", "shortName"=>"Gym / Fitness"}], "contact"=>{"formattedPhone"=>"(212) 208-1300", "phone"=>"2122081300", "twitter"=>"soulcycle"}, "location"=>{"address"=>"12 E 18th St", "cc"=>"US", "city"=>"New York", "country"=>"United States", "crossStreet"=>"btwn Broadway & 5th Ave", "distance"=>"328", "lat"=>"40.73814262308764", "lng"=>"-73.99070184444935", "postalCode"=>"10003", "state"=>"NY"}, "name"=>"SoulCycle Union Square", "restricted"=>"true", "stats"=>{"checkinsCount"=>"24207", "tipCount"=>"68", "usersCount"=>"3252"}, "verified"=>"true", "id"=>"4d4f4dc207b1a09016acf83b"}
+  Rendered passes/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 273.0ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-14 15:38:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-14 15:38:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)

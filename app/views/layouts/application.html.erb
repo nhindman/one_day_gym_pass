@@ -8,14 +8,21 @@
 </head>
 <body>
 
-   <!-- custom sign-out button -->
+   <!-- custom sign-in / sign-out button -->
   <% if current_user %>
 
-  Welcome Back, <%= current_user.name %>!
+  Hi, <%= current_user.name %>!
 
   <form action="/users/sign_out" method="POST">
     <input type="hidden" name="_method" value="DELETE">
     <button type="submit">Sign Out</button>
+  </form>
+
+  <% else %>
+
+  <form action="/users/sign_in" method="POST">
+    <input type="hidden" name="_method" value="NEW">
+    <button type="submit">Sign In</button>
   </form>
   
   <% end %>
