@@ -1,7 +1,18 @@
 class PassesController < ApplicationController
 
-def new
-  # redirect_to root_path
+def new 
+  if current_user 
+  # @gym_name = params[:gym_name]  
+  @gym = Gym.create({
+    name: params[:gym_name],
+    address: params[:address],
+    cross_street: params[:cross_street],
+    phone_number: params[:phone_number]
+    })
+  render :'passes/show'
+  else 
+  render :'passes/need_auth'
+end
 end
 
 def index

@@ -1,0 +1,16 @@
+Your one day gym pass redemption code is: <%= rand.to_s[5..9] %>
+<br>
+<br>Now what? 
+
+<br>
+<br>Show this code to the front-desk attendant at <%= @gym.name %> and you will receive one free day of access to <%= @gym.name %>.
+
+<br>
+<br>Rules:
+<br>- Only you can redeem this code for a day pass at <%= @gym.name %>. 
+<% t = Time.now %>
+<% t2 = t + 24*60*60 %>
+<br>- You must present a valid ID bearing the same name associated with your one day gym pass account in order to receive your day pass.   
+<br>- You must redeem your day pass in person in the next 24 hours. If you do not, this code will expire at <%= t2.strftime("%I:%M%P on %B %d, %Y") %>. 
+
+<br>- Users are entitled to only one day pass at each participating gym. 
