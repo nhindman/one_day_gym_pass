@@ -1,11 +1,17 @@
 Odgp::Application.routes.draw do
 
+  devise_for :users
+
   resources :passes
   resources :users
 
   root to: "users#index"
 
   get '/gym' => "passes#gym"
+
+  post '/passes/index' => 'passes#index'
+
+  get '/after_sign_in_page' => 'home#you_are_signed_in', as: :my_after_sign_in
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

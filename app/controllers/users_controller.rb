@@ -6,14 +6,18 @@ class UsersController < ApplicationController
 
 
   def index
-    user_input_address = params[:user_input_address]
-    user = User.new
-    user.address = user_input_address
-    user.save!
-    if user.address
-      redirect_to passes_path
-    else
-      # render 'users#index'
+ 
+  end
+
+  def you_are_signed_in
+    # blocks non signed in users from seeing this page
+    if current_user 
+      render json: { 
+        user: current_user,
+        session: user_session
+      }
+    else 
+      redirect_to root_path
     end
   end
 

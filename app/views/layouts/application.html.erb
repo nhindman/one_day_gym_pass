@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Odgp</title>
+  <title>One Day Gym Pass</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+   <!-- custom sign-out button -->
+  <% if current_user %>
+
+  Welcome Back, <%= current_user.name %>!
+
+  <form action="/users/sign_out" method="POST">
+    <input type="hidden" name="_method" value="DELETE">
+    <button type="submit">Sign Out</button>
+  </form>
+  
+  <% end %>
+
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
 
 <%= yield %>
 
