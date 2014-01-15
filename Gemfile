@@ -21,6 +21,9 @@ gem 'foursquare2'
 
 gem 'oauth'
 gem "alchemist", "~> 0.1.7"
+gem 'geocoder'
+gem 'gmaps4rails'
+gem 'underscore-rails'
 
 
 # Gems used only for assets and not required

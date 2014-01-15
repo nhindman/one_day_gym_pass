@@ -64,6 +64,8 @@ GEM
       faraday (~> 0.8)
       faraday_middleware (>= 0.8)
       hashie (>= 1.0, < 3.0.0)
+    geocoder (1.1.9)
+    gmaps4rails (2.1.1)
     hashie (2.0.5)
     hike (1.2.3)
     httparty (0.12.0)
@@ -159,6 +161,7 @@ GEM
     uglifier (2.4.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    underscore-rails (1.5.2)
     warden (1.2.3)
       rack (>= 1.0)
     xpath (2.0.0)
@@ -173,6 +176,8 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   foursquare2
+  geocoder
+  gmaps4rails
   httparty
   jquery-rails
   oauth
@@ -184,3 +189,4 @@ DEPENDENCIES
   rspec-rails
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
+  underscore-rails

@@ -74,7 +74,15 @@ def show
   @gym_url = gym["url"]
   @gym_review = gym["reviews"][0]["excerpt"]
   @gym_phone = gym["phone"]
-  @gym_address = gym["location"]["display_address"]
+  @gym_address = gym["location"]["display_address"].join(" ").gsub("["," ")
+
+  @gym_map_address = @gym_address.gsub(" ", '%20')
+  thing = "http://maps.googleapis.com/maps/api/geocode/json?address=#{@gym_map_address}&sensor=true"
+  address = HTTParty.get(thing)
+  # binding.pry
+  @lat = address["results"][0]["geometry"]["location"]["lat"]
+  @lng = address["results"][0]["geometry"]["location"]["lng"]
+
   # old foursquare api code
   # response = HTTParty.get("https://api.foursquare.com/v2/venues/#{venue_id}?client_id=YRXH0LHSXPSQQPQA34I41XKQCUNAVQIF0TTNXWXQC0NUZJGD&client_secret=ENUT2HBL3TARDIIF4RMLE05WLVX0FVPN452E3OMJWJEX3D1T")
   # gym = JSON.parse(response.body)
