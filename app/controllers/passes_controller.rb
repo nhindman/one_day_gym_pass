@@ -1,13 +1,17 @@
 class PassesController < ApplicationController
 
 def new 
-  if current_user 
-  # @gym_name = params[:gym_name]  
+  if current_user  
   @gym = Gym.create({
     name: params[:gym_name],
     address: params[:address],
     cross_street: params[:cross_street],
     phone_number: params[:phone_number]
+    })
+  @pass = Pass.create({
+    user_id: current_user.id,
+    gym_id: @gym.id, 
+    redemption_code: rand.to_s[5..9]
     })
   render :'passes/show'
   else 
