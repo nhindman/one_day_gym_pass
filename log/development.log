@@ -35170,3 +35170,3474 @@ Served asset /gmaps/google.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 16:56:51 -0500
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 198.6ms (Views: 187.1ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 21.2ms (Views: 20.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /underscore.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /jquery.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/base.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:09 -0500
+Served asset /gmaps/google.js - 304 Not Modified (79ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:10 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:10 -0500
+Served asset /application.js - 304 Not Modified (39ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-15 17:03:12 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"122 west 26th street, new york, ny", "authenticity_token"=>"+ZaCBgJJ+YeE8+OLgdRisf1vsqHDxbrqD0Z74rV9/+c="}
+  Rendered passes/index.html.erb within layouts/application (29.7ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 1047.5ms (Views: 41.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:13 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:03:14 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 414.9ms (Views: 14.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:15 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:03:31 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 866.8ms (Views: 14.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:03:32 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:04:01 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 759.5ms (Views: 13.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:02 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:04:23 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 450.2ms (Views: 13.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:24 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:04:32 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 2945.7ms (Views: 12.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:04:35 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 2036.1ms (Views: 14.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:37 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:04:48 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.6ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 674.2ms (Views: 15.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:04:49 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:05:04 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 422.8ms (Views: 13.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:05 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:05:17 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.0ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 747.4ms (Views: 15.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:05:18 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (0.5ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 458.2ms (Views: 11.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:19 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:05:29 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 1196.8ms (Views: 13.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:05:30 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:07:47 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 3133.0ms (Views: 12.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:50 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:51 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:51 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:07:51 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:08:10 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.8ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 465.4ms (Views: 15.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:11 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:08:28 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.0ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 1325.0ms (Views: 13.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:30 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:08:45 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 16.7ms (Views: 15.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:08:45 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:45 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:46 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8.5ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10.9ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:08:47 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:37:09 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 17.8ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/nhindman/Documents/ga_wdi/projects/one_day_gym_pass/app/assets/stylesheets/application.css:11)):
+    2: <html>
+    3: <head>
+    4:   <title>One Day Gym Pass</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4489053204743400883_2174211840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:41:06 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 15.3ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/nhindman/Documents/ga_wdi/projects/one_day_gym_pass/app/assets/stylesheets/application.css:11)):
+    2: <html>
+    3: <head>
+    4:   <title>One Day Gym Pass</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1281453716264958565_2168428420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:41:08 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 8.5ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap'
+  (in /Users/nhindman/Documents/ga_wdi/projects/one_day_gym_pass/app/assets/stylesheets/application.css:11)):
+    2: <html>
+    3: <head>
+    4:   <title>One Day Gym Pass</title>
+    5:   <%= stylesheet_link_tag    "application", :media => "all" %>
+    6:   <%= javascript_include_tag "application" %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1281453716264958565_2168428420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-2.0.0-p353@wdi-block/gems/actionpack-3.2.16/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.6ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Compiled bootstrap.css  (0ms)  (pid 70066)
+Compiled application.css  (7ms)  (pid 70066)
+Compiled bootstrap.js  (1ms)  (pid 70066)
+Compiled application.js  (10ms)  (pid 70066)
+Completed 200 OK in 172.8ms (Views: 172.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /bootstrap.js - 200 OK (11ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /bootstrap.css - 200 OK (4ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /underscore.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/base.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /gmaps/google.js - 304 Not Modified (45ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:42:19 -0500
+Served asset /application.js - 200 OK (42ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Processing by Devise::SessionsController#create as HTML
+WARNING: Can't verify CSRF token authenticity
+Completed 401 Unauthorized in 1.3ms
+Processing by Devise::SessionsController#new as HTML
+WARNING: Can't verify CSRF token authenticity
+  Rendered devise/shared/_links.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 102.4ms (Views: 56.1ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:01 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7qJfUrCGUAS6DY1qsCpBhJuhSUqIMNlirTWiTOAVyuA=", "user"=>{"email"=>"nate@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'nate@email.com' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (1.5ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = '2014-01-15 21:55:43.643548', "current_sign_in_at" = '2014-01-15 22:43:06.846415', "sign_in_count" = 11, "updated_at" = '2014-01-15 22:43:06.849646' WHERE "users"."id" = 2[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 109.1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (1.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 13.7ms (Views: 11.8ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:06 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:07 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started POST "/passes/index" for 127.0.0.1 at 2014-01-15 17:43:12 -0500
+Processing by PassesController#index as HTML
+  Parameters: {"user_input_address"=>"122 west 26th street, new york, ny", "authenticity_token"=>"DW/9HiOg8C87OAqFuqUvSUufzDgEOH4oPhMkXkhQZ+4="}
+  Rendered passes/index.html.erb within layouts/application (28.6ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+Completed 200 OK in 1492.8ms (Views: 40.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:13 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/305-fitness-manhattan?categories%5B%5D%5B%5D=Dance+Studios&categories%5B%5D%5B%5D=dancestudio&categories%5B%5D%5B%5D=Gyms&categories%5B%5D%5B%5D=gyms&display_phone=%2B1-646-480-2459&distance=187.25727965364456&image_url=http%3A%2F%2Fs3-media4.ak.yelpcdn.com%2Fbphoto%2FAV3R7QlRrL0vXkBWvOq6Zg%2Fms.jpg&is_claimed=true&is_closed=false&location%5Baddress%5D%5B%5D=37+W+26th+St&location%5Baddress%5D%5B%5D=9th+Fl&location%5Bcity%5D=Manhattan&location%5Bcountry_code%5D=US&location%5Bdisplay_address%5D%5B%5D=37+W+26th+St&location%5Bdisplay_address%5D%5B%5D=9th+Fl&location%5Bdisplay_address%5D%5B%5D=Flatiron&location%5Bdisplay_address%5D%5B%5D=Manhattan%2C+NY+10003&location%5Bneighborhoods%5D%5B%5D=Flatiron&location%5Bpostal_code%5D=10003&location%5Bstate_code%5D=NY&mobile_url=http%3A%2F%2Fm.yelp.com%2Fbiz%2F305-fitness-manhattan&name=305+Fitness&phone=6464802459&rating=5.0&rating_img_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Ff1def11e4e79%2Fico%2Fstars%2Fv1%2Fstars_5.png&rating_img_url_large=http%3A%2F%2Fs3-media3.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2F22affc4e6c38%2Fico%2Fstars%2Fv1%2Fstars_large_5.png&rating_img_url_small=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fassets%2F2%2Fwww%2Fimg%2Fc7623205d5cd%2Fico%2Fstars%2Fv1%2Fstars_small_5.png&review_count=42&snippet_image_url=http%3A%2F%2Fs3-media1.ak.yelpcdn.com%2Fphoto%2FsxpwRvLQTQOmkAH2W2zcIw%2Fms.jpg&snippet_text=Be+prepare+to+get+your+ass+kicked+--+in+a+REALLY+good+way.%0A%0AI+attended+a+class+led+by+LaToya%2C+an+exuberant+and+incredibly+positive+fitness+instructor.++She...&url=http%3A%2F%2Fwww.yelp.com%2Fbiz%2F305-fitness-manhattan" for 127.0.0.1 at 2014-01-15 17:43:20 -0500
+Processing by PassesController#show as HTML
+  Parameters: {"categories"=>nil, "display_phone"=>"+1-646-480-2459", "distance"=>"187.25727965364456", "image_url"=>"http://s3-media4.ak.yelpcdn.com/bphoto/AV3R7QlRrL0vXkBWvOq6Zg/ms.jpg", "is_claimed"=>"true", "is_closed"=>"false", "location"=>{"address"=>["37 W 26th St", "9th Fl"], "city"=>"Manhattan", "country_code"=>"US", "display_address"=>["37 W 26th St", "9th Fl", "Flatiron", "Manhattan, NY 10003"], "neighborhoods"=>["Flatiron"], "postal_code"=>"10003", "state_code"=>"NY"}, "mobile_url"=>"http://m.yelp.com/biz/305-fitness-manhattan", "name"=>"305 Fitness", "phone"=>"6464802459", "rating"=>"5.0", "rating_img_url"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png", "rating_img_url_large"=>"http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png", "rating_img_url_small"=>"http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png", "review_count"=>"42", "snippet_image_url"=>"http://s3-media1.ak.yelpcdn.com/photo/sxpwRvLQTQOmkAH2W2zcIw/ms.jpg", "snippet_text"=>"Be prepare to get your ass kicked -- in a REALLY good way.\n\nI attended a class led by LaToya, an exuberant and incredibly positive fitness instructor.  She...", "url"=>"http://www.yelp.com/biz/305-fitness-manhattan", "id"=>"305-fitness-manhattan"}
+  Rendered passes/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 418.8ms (Views: 17.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:21 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/passes/new?gym_name=305+Fitness&address=37+W+26th+St+9th+Fl+Flatiron+Manhattan%2C+NY+10003&cross_street=305+Fitness&phone_number=305+Fitness" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Processing by PassesController#new as HTML
+  Parameters: {"gym_name"=>"305 Fitness", "address"=>"37 W 26th St 9th Fl Flatiron Manhattan, NY 10003", "cross_street"=>"305 Fitness", "phone_number"=>"305 Fitness"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "gyms" ("address", "created_at", "cross_street", "name", "phone_number", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["address", "37 W 26th St 9th Fl Flatiron Manhattan, NY 10003"], ["created_at", Wed, 15 Jan 2014 22:43:38 UTC +00:00], ["cross_street", "305 Fitness"], ["name", "305 Fitness"], ["phone_number", "305 Fitness"], ["updated_at", Wed, 15 Jan 2014 22:43:38 UTC +00:00]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "passes" ("created_at", "gym_id", "redemption_code", "timestamps", "updated_at", "user_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", Wed, 15 Jan 2014 22:43:38 UTC +00:00], ["gym_id", 21], ["redemption_code", 17742], ["timestamps", nil], ["updated_at", Wed, 15 Jan 2014 22:43:38 UTC +00:00], ["user_id", 2]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered passes/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 51.5ms (Views: 12.7ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:38 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+Completed 200 OK in 15.5ms (Views: 14.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:42 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Processing by Devise::SessionsController#destroy as HTML
+WARNING: Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 8.7ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 13.2ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/base/base.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/base/base.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/base_builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/objects/base_builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/builder.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/objects/builder.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/handler.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/objects/handler.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/objects/null_clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/common.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/common.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/builders/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/builders/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/bound.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/bound.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/circle.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/circle.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/clusterer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/kml.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/kml.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/marker.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/marker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/map.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/map.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polygon.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/polygon.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/objects/polyline.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/objects/polyline.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google/primitives.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google/primitives.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gmaps/google.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /gmaps/google.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-15 17:43:44 -0500
+Served asset /application.js - 304 Not Modified (0ms)
