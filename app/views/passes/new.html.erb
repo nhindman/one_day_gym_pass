@@ -1,19 +1,14 @@
 <h1><%= @gym_name %></h1>
+<img src="<%= @gym_image %>"/>
 <form action= "<%= new_pass_path %>" method= "GET">
   <input name="gym_name" type="hidden" value="<%= @gym_name %>" />
-  <input name="address" type="hidden" value="<%= @address %>" />
+  <input name="address" type="hidden" value="<%= @gym_address %>" />
   <input name="cross_street" type="hidden" value="<%= @gym_name %>" />
   <input name="phone_number" type="hidden" value="<%= @gym_name %>" />
   <button type="submit">Get a day pass</button>
 </form>
-<ul class="venue details">
-<li>Phone Number: <%= @phone_number %></li>
-<li>Address: <%= @address %>
-<%= @cross_street %>
-<%= @city %>
-<%= @state %>
-<%= @postal_code %></li>
-<li>Website: <%= @website %></li>
-<li>Description: <%= @description %></li>
-</ul>
+<br><a href="<%= @gym_url %>">Yelp page</a>
+<br><%= @gym_address %>
+<br><%= @gym_phone %>
 
+<br><a href="<%= root_path %>">Search again</a>

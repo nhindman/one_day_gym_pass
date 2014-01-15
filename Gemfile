@@ -19,6 +19,9 @@ gem 'httparty'
 
 gem 'foursquare2'
 
+gem 'oauth'
+gem "alchemist", "~> 0.1.7"
+
 
 # Gems used only for assets and not required
 # in production environments by default.

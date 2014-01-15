@@ -1,12 +1,21 @@
 <%-#index view from passes controller%>
-
 <div class="gyms_near_field">
 <br>gyms near: <%= @gyms_near_address %></br>
-<a href="<%= root_path %>">change address</a>  
-</div>      
+<a href="<%= root_path %>">change address</a> 
 <ul class="gyms">
-<% @items.each do |item| %>
-  <% item_id = item['id'] %>
-  <li><%= link_to item['name'], pass_path(item) %></li>
+<% @businesses.each do |business| %>
+  <li><img src="<%= business["image_url"] %>"/>
+  <%= link_to business["name"], pass_path(business) %>
+  Address: <%= business["location"]["address"][0].gsub("["," ") %>
+  What customers say: <%= business["snippet_text"] %>(<a href="<%= business["url"] %>" target="_blank">Read more</a>)
+  Distance: <%= business["distance"].round(2) %> meters away</li>
 <% end %>
 </ul>
+</div> 
+
+
+
+<%# @items.each do |item| %>
+  <%# item_id = item['id'] %>
+  <%#= link_to item['name'], pass_path(item) %>
+<%# end %>
