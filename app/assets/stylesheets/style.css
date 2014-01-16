@@ -1,33 +1,76 @@
-.gyms {
-  font-size: 12px;
+body {
+  background-image: url('gym_pass.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*gyms_near_field*/
 .gyms_near_field {
+  z-index: 1;
   width: 75%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /*gym_search_results_table*/
 
-.gym_search_results_table {
-  width: 75%;
-  margin: 0 auto;
+/*main container*/
+.col-md-10 {
+  width: 80%;
+  position: relative;
+  top: -120px;
+  background-color: white;
+  border-radius: 10px;
 }
 
-tr.gym_results_header_panel {
-  border-radius:25px;
+/*logo*/
+  
+.gym_results_logo_container {
+  margin-top: 100px;
+  background-color: gray;
 }
 
-th.gym_results_header {
+/*gym results table header panel*/
+
+.row {
+  margin: auto 0; 
+  background-color: green;
+  border-radius: 8px;
+}
+
+
+.col-md-5 {
+  width: 100%;
+  display: inline;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 8px;
+}
+
+.gym_results_header {
+  display: inline;
   padding-top: 22px;
   padding-bottom: 22px;
   background-color: green;
+  border-radius: 15px;
+  color: white;
+}
+
+table {
+  /*margin-top: 40px;*/
+}
+
+tr.gym_results_details_row {
+  border-bottom: 1px solid gray;
+  border-bottom-style: dotted;
 }
 
 td.gym_results_image_column {
+  padding-left: 2px;
+  padding-top: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 td.gym_results_name_column {
@@ -36,16 +79,25 @@ td.gym_results_name_column {
   padding-bottom: 10px;
 }
 
+#gym_results_business_name_style {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 td.gym_results_customers_column {
   padding-left: 10px;
   padding-bottom: 10px;
 }
 
 td.gym_results_distance_column {
+  width: 10%;
   padding-left: 10px;
   padding-bottom: 10px;
 }
 
+/*gym details page*/
 
-
+#map {
+  padding-left: 20px;
+}
 

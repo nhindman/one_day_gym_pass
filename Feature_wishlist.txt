@@ -10,3 +10,5 @@
 
 6) make the gyms near on the gym results page a drop down with recently search addresses and last option "enter new address"
 
+7) in gym search results table, be able to click on photo and have it take you to venue details page
+

@@ -1,26 +1,37 @@
 <%-#index view from passes controller%>
-<div class="gyms_near_field">
-<br>gyms near: <%= @gyms_near_address %></br>
-<a href="<%= root_path %>">change address</a> 
-</div>
-<div class="gym_search_results_table">
-  <table>
-    <tr class="gym_results_header_panel">
-      <th class="gym_results_header"></th>
-      <th class="gym_results_header">Gym Name</th>
-      <th class="gym_results_header">What Customers Say</th>
-      <th class="gym_results_header">Distance</th>
-    </tr>
+<div class="col-md-10 col-md-offset-1">
+  <div class="col-md-5 gym_results_logo_container">
+    <div class"gym_results_logo">one day gym pass</div>
+  </div>
+  <div class="gyms_near_field">
+    <br>gyms near: <%= @gyms_near_address %></br>
+    <a href="<%= root_path %>">change address</a> 
+  </div>
+  <div class="row">
+    <div class="col-md-5">
+      <p class="col-md-1"></p>
+      <p class="gym_results_header">Gym Name</p>
+      <p class="gym_results_header">What Customers Say</p>
+      <p class="gym_results_header">Distance</p>
+    </div>
+  </div>
+  <table>  
   <% @businesses.each do |business| %>
     <tr class="gym_results_details_row">
     <td class="gym_results_image_column"><img src="<%= business["image_url"] %>"/></td>
-    <td class="gym_results_name_column"><%= link_to business["name"], pass_path(business) %>
-    <br><%= business["location"]["address"][0].gsub("["," ") %></td>
+    <td class="gym_results_name_column"><span id="gym_results_business_name_style"><%= link_to business["name"], pass_path(business) %></span>
+      <% if business["location"]["address"][0] !=  nil %>
+        <br><%= business["location"]["address"][0].gsub("["," ") %></td>
+      <% else %>
+        <br>No Address Specified</br>
+      <% end %>
     <td class="gym_results_customers_column"><%= business["snippet_text"] %>(<a href="<%= business["url"] %>" target="_blank">More</a>)</td>
-    <td class="gym_results_distance_column"><%= business["distance"].round(2) %> meters</td>
+    <td class="gym_results_distance_column"><%= business["distance"].meters.to.miles.round(2) %> mi</td> 
     </tr>
   <% end %>
   </table>
+  <br><a href="<%= root_path %>">search again</a> 
+
 </div> 
 
 <%# @items.each do |item| %>
