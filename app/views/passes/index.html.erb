@@ -2,18 +2,26 @@
 <div class="gyms_near_field">
 <br>gyms near: <%= @gyms_near_address %></br>
 <a href="<%= root_path %>">change address</a> 
-<ul class="gyms">
-<% @businesses.each do |business| %>
-  <li><img src="<%= business["image_url"] %>"/>
-  <%= link_to business["name"], pass_path(business) %>
-  Address: <%= business["location"]["address"][0].gsub("["," ") %>
-  What customers say: <%= business["snippet_text"] %>(<a href="<%= business["url"] %>" target="_blank">Read more</a>)
-  Distance: <%= business["distance"].round(2) %> meters away</li>
-<% end %>
-</ul>
+</div>
+<div class="gym_search_results_table">
+  <table>
+    <tr class="gym_results_header_panel">
+      <th class="gym_results_header"></th>
+      <th class="gym_results_header">Gym Name</th>
+      <th class="gym_results_header">What Customers Say</th>
+      <th class="gym_results_header">Distance</th>
+    </tr>
+  <% @businesses.each do |business| %>
+    <tr class="gym_results_details_row">
+    <td class="gym_results_image_column"><img src="<%= business["image_url"] %>"/></td>
+    <td class="gym_results_name_column"><%= link_to business["name"], pass_path(business) %>
+    <br><%= business["location"]["address"][0].gsub("["," ") %></td>
+    <td class="gym_results_customers_column"><%= business["snippet_text"] %>(<a href="<%= business["url"] %>" target="_blank">More</a>)</td>
+    <td class="gym_results_distance_column"><%= business["distance"].round(2) %> meters</td>
+    </tr>
+  <% end %>
+  </table>
 </div> 
-
-
 
 <%# @items.each do |item| %>
   <%# item_id = item['id'] %>

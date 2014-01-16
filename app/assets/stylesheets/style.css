@@ -1,0 +1,51 @@
+.gyms {
+  font-size: 12px;
+}
+
+/*gyms_near_field*/
+.gyms_near_field {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/*gym_search_results_table*/
+
+.gym_search_results_table {
+  width: 75%;
+  margin: 0 auto;
+}
+
+tr.gym_results_header_panel {
+  border-radius:25px;
+}
+
+th.gym_results_header {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  background-color: green;
+}
+
+td.gym_results_image_column {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+td.gym_results_name_column {
+  width: 20%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+td.gym_results_customers_column {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+td.gym_results_distance_column {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
