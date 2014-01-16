@@ -76,13 +76,23 @@ def show
   @gym_phone = gym["phone"]
   @gym_address = gym["location"]["display_address"].join(" ").gsub("["," ")
 
-  @gym_map_address = @gym_address.gsub(" ", '%20')
-  thing = "http://maps.googleapis.com/maps/api/geocode/json?address=#{@gym_map_address}&sensor=true"
-  address = HTTParty.get(thing)
-  # binding.pry
-  @lat = address["results"][0]["geometry"]["location"]["lat"]
-  @lng = address["results"][0]["geometry"]["location"]["lng"]
+  @gym_map_address = @gym_address.gsub('%20'," ")
+  puts "looking for address" 
+  puts @gym_map_address
+  results = Geocoder.search(@gym_map_address) 
+  @lat = results[0].data["geometry"]["location"]["lat"]
+  @lng = results[0].data["geometry"]["location"]["lng"]
+  # thing = "http://maps.googleapis.com/maps/api/geocode/json?address=#{@gym_map_address}&sensor=true"
+  # address = HTTParty.get(thing)
+  # # binding.pry
+  # puts "checking latitude"
+  # @lat = address["results"][0]["geometry"]["location"]["lat"].round(6)
+  # puts "checking latitude"
+  # puts @lat
+  # @lng = address["results"][0]["geometry"]["location"]["lng"].round(6)
 
+  #hash[0].data["geometry"]["location"]["lat"]
+  #hash[0].data["geometry"]["location"]["lng"]
   # old foursquare api code
   # response = HTTParty.get("https://api.foursquare.com/v2/venues/#{venue_id}?client_id=YRXH0LHSXPSQQPQA34I41XKQCUNAVQIF0TTNXWXQC0NUZJGD&client_secret=ENUT2HBL3TARDIIF4RMLE05WLVX0FVPN452E3OMJWJEX3D1T")
   # gym = JSON.parse(response.body)
