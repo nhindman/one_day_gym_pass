@@ -6,11 +6,6 @@ body {
 
 /*gyms_near_field*/
 .gyms_near_field {
-  z-index: 1;
-  width: 75%;
-  /*margin: 0 auto;*/
-  overflow-x: hidden;
-  overflow-y: auto;
 }
 
 /*gym_search_results_table*/
@@ -27,38 +22,59 @@ body {
 /*logo*/
   
 .gym_results_logo_container {
-  margin-top: 100px;
+  height: 180px;
+  margin-top: -30px;
   background-color: gray;
+}
+
+.gym_results_logo_container2 {
+  margin-top: 60px;
+}
+
+#gym_results_logo {
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
 }
 
 /*gym results table header panel*/
 
 .row {
+  margin-top: 10px;
   margin: auto 0; 
   background-color: green;
   border-radius: 8px;
 }
 
-
 .col-md-5 {
   width: 100%;
   display: inline;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 8px;
 }
 
 .gym_results_header {
   display: inline;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 15px;
+  padding-bottom: 3px;
   background-color: green;
   border-radius: 15px;
   color: white;
 }
 
-table {
-  /*margin-top: 40px;*/
+/*gym_name header*/
+.col-md-2.gym_results_header {
+  padding-left: 38px;
+}
+
+/*What Customers Say header*/
+.col-md-3.col-md-offset-1.gym_results_header {
+  margin-left: 53px;
+}
+
+.col-md-1.col-md-offset-4.gym_results_header {
+  padding-right: 30px;
 }
 
 tr.gym_results_details_row {

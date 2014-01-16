@@ -1,18 +1,18 @@
 <%-#index view from passes controller%>
 <div class="col-md-10 col-md-offset-1">
   <div class="col-md-5 gym_results_logo_container">
-    <div class"gym_results_logo">one day gym pass</div>
+    <div class="gym_results_logo_container2"><span id="gym_results_logo">one day gym pass</div></span>
   </div>
   <div class="gyms_near_field">
-    <br>gyms near: <%= @gyms_near_address %></br>
-    <a href="<%= root_path %>">change address</a> 
+    <h2><br>Gyms near: <%= @gyms_near_address %></br></h2>
+    <h3><a href="<%= root_path %>" class="btn btn-primary">Change Address</a></h3>
   </div>
   <div class="row">
     <div class="col-md-5">
       <p class="col-md-1"></p>
-      <p class="gym_results_header">Gym Name</p>
-      <p class="gym_results_header">What Customers Say</p>
-      <p class="gym_results_header">Distance</p>
+      <p class="col-md-2 gym_results_header">Gym Name</p>
+      <p class="col-md-3 col-md-offset-1 gym_results_header">What Customers Say</p>
+      <p class="col-md-1 col-md-offset-4 gym_results_header">Distance</p>
     </div>
   </div>
   <table>  
