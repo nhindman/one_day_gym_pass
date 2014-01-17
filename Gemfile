@@ -24,6 +24,7 @@ gem "alchemist", "~> 0.1.7"
 gem 'geocoder'
 gem 'gmaps4rails'
 gem 'underscore-rails'
+gem 'twilio-ruby'
 
 
 # Gems used only for assets and not required

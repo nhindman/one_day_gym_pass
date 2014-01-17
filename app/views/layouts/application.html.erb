@@ -10,20 +10,21 @@
 <body>
 
    <!-- custom sign-in / sign-out button -->
-  <% if current_user %>
+
+   <% if current_user %>
 
   Hi, <%= current_user.name %>!
 
   <form action="/users/sign_out" method="POST">
     <input type="hidden" name="_method" value="DELETE">
-    <button type="submit">Sign Out</button>
+    <button type="submit gym_search_details_button_out">Sign Out</button>
   </form>
 
   <% else %>
 
   <form action="/users/sign_in" method="POST">
     <input type="hidden" name="_method" value="NEW">
-    <button type="submit">Sign In</button>
+    <button type="submit gym_search_details_button_out">Sign In</button>
   </form>
   
   <% end %>

@@ -13,6 +13,8 @@ Odgp::Application.routes.draw do
 
   get '/after_sign_in_page' => 'home#you_are_signed_in', as: :my_after_sign_in
 
+  # post '/passes/:id' => 'passes#create', as: :text_msg
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
