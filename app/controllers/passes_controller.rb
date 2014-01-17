@@ -24,7 +24,8 @@ end
 
 def index
   user_input_address = params[:user_input_address]
-  @gyms_near_address = user_input_address.split.map(&:capitalize).join(' ')
+  string = user_input_address.split.map(&:capitalize).join(' ')
+  @gyms_near_address = string[0, string.index(',')]
   puts "LOOKING FOR ADDRESS"
   puts user_input_address
   user_address = user_input_address.gsub(' ','%20')

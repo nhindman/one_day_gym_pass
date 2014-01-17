@@ -1,6 +1,9 @@
 body {
-  background-image: url('gym_pass.jpg');
+  background-image: url('one_day_2.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  /*background-position-x: 50%;
+  background-position-y: 50px;*/
   background-attachment: fixed;
 }
 
@@ -10,29 +13,22 @@ body {
 }
 
 #gym_near_address {
+  margin-right: 19px;
   font-weight: bold;
 }
 
-/*gym_search_results_table*/
+/*gym_search_results/
 
 /*main container*/
 .main_container {
-  width: 70%;
+  margin: auto 0;
+  width: 78%;
   height: 100%;
   position: relative;
+  left: 125px;
   top: -120px;
-  background-color: white;
+  background-color: rgba(27,27,26,.8);
   border-radius: 10px;
-}
-
-.gym_details_container {
-  /*width: 70%;*/
-  height: 900px;
-  position: relative;
-  top: -120px;
-  background-color: white;
-  border-radius: 10px;
-  margin: auto 0;
 }
 
 /*logo*/
@@ -45,7 +41,7 @@ body {
   
 .gym_results_logo_container {
   height: 180px;
-  background-color: gray;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -54,7 +50,7 @@ body {
   top: 60px;
   font-size: 38px;
   font-weight: bold;
-  color: white;
+  color: black;
   padding-left: 5px;
 }
 
@@ -67,7 +63,9 @@ body {
   border-radius: 8px;
 }
 
-
+table {
+  color: white;
+}
 
 .gym_results_header {
   display: inline;
@@ -90,11 +88,11 @@ body {
 }
 
 .mine3.col-md-1.gym_results_header {
-  margin-left: 230px;
+  margin-left: 276px;
 }
 
 tr.gym_results_details_row {
-  border-bottom: 1px solid gray;
+  border-bottom: 2px solid green;
   border-bottom-style: dotted;
 }
 
@@ -129,15 +127,108 @@ td.gym_results_distance_column {
 
 /*gym details page*/
 
-#map {
-  padding-left: 20px;
+.gym_details_main_container {
+  width: 78%;
+  height: 950px;
+  position: relative;
+  top: -141px;
+  left: 128px;
+  background-color: rgba(27,27,26,.8);
+  border-radius: 10px;
 }
 
-/*.logo {
-  width: 100%;
-  display: inline;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.gym_details_logo_main_container {
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 10px;
+}
+  
+.gym_details_logo_container {
+  height: 180px;
+  background-color: white;
   border-radius: 8px;
+}
 
-}*/
+#gym_details_logo {
+  position: relative;
+  top: 60px;
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  padding-left: 5px;
+}
+
+.gym_details_name_image_pass {
+  background-color: rgba(109,109,109,.4);
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 18px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.btn.btn-primary.get_day_pass_button {
+  height: 71px;
+  width: 160px;
+  border: solid black;
+  margin-top: 20px;
+  margin-left: 45px;
+  font-size: 18px;
+}
+
+.gym_details_name {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: -5px;
+  margin-left: 27px;
+}
+
+.gym_details_image {
+  margin-left: 15px;
+  border-radius: 8px;
+}
+
+.gym_details_map_etc {
+  background-color: rgba(109,109,109,.4);
+  width: 59%;
+  position: absolute;
+  left: 345px;
+  top: 203px;
+  border-radius: 8px;
+  height: 720px;
+}
+
+#map {
+  float: right;
+  top: 38px;
+  right: 283px;
+  padding-left: 5px;
+}
+
+.btn.btn-primary.yelp_page {
+  border: solid black;
+  position: relative;
+  border-radius: 8px;
+  top: -19px;
+  height: 40px;
+  width: 130px;
+}
+
+.btn.btn-primary.search_again {
+  border: solid black;
+  position: relative;
+  border-radius: 8px;
+  top: -60px;
+  left: 395px;
+  height: 40px;
+  width: 130px;
+}
+
+.gym_details_address_phone {
+  background-color: rgb(238, 234, 224);
+  padding-bottom: 15px;
+  margin: 0px auto;
+  position: relative;
+  top: 470px;
+}
