@@ -17,6 +17,11 @@ body {
   font-weight: bold;
 }
 
+.btn.btn-primary.change_address {
+  position: relative;
+  left: 95px;
+}
+
 /*gym_search_results/
 
 /*main container*/
