@@ -7,24 +7,73 @@ body {
   background-attachment: fixed;
 }
 
-/*gyms_near_field*/
-.gyms_near_field {
-  float:right;
-}
-
-#gym_near_address {
-  margin-right: 19px;
-  font-weight: bold;
-}
-
-.btn.btn-primary.change_address {
+.sign_up_main_container {
+  text-align: center;
+  color: white;
+  margin: auto 0;
+  width: 78%;
+  height: 100%;
   position: relative;
-  left: 95px;
+  left: 125px;
+  top: -20px;
+  background-color: rgba(27,27,26,.8);
+  border-radius: 10px;
 }
 
-/*gym_search_results/
+.sign_up_button {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/*landing page*/
+
+.landing_main_container {
+  margin: auto 0;
+  width: 78%;
+  height: 100%;
+  position: relative;
+  left: 125px;
+  top: -120px;
+  background-color: rgba(27,27,26,.8);
+  border-radius: 10px;
+}
+
+/*logo*/
+
+.landing_logo_main_container {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+  
+.landing_logo_container {
+  height: 180px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#landing_logo {
+  position: relative;
+  top: 60px;
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Cabin Sketch', cursive;
+  padding-left: 5px;
+}
+
+.landing_explainer {
+  color: white;
+  font-size: 22px;
+  font-family: 'Cabin Sketch', cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*gym_search_results page/
 
 /*main container*/
+
 .main_container {
   margin: auto 0;
   width: 78%;
@@ -56,7 +105,25 @@ body {
   font-size: 38px;
   font-weight: bold;
   color: black;
+  font-family: 'Cabin Sketch', cursive;
   padding-left: 5px;
+}
+
+/*gyms_near_field*/
+.gyms_near_field {
+  float:right;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#gym_near_address {
+  margin-right: 19px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn.btn-primary.change_address {
+  position: relative;
+  left: 155px;
 }
 
 /*gym results table header panel*/
@@ -66,6 +133,7 @@ body {
   margin: auto 0; 
   background-color: green;
   border-radius: 8px;
+  font-family: 'Cabin Sketch', cursive;
 }
 
 table {
@@ -156,6 +224,7 @@ td.gym_results_distance_column {
 
 #gym_details_logo {
   position: relative;
+  font-family: 'Cabin Sketch', cursive;
   top: 60px;
   font-size: 38px;
   font-weight: bold;
@@ -173,6 +242,7 @@ td.gym_results_distance_column {
 }
 
 .btn.btn-primary.get_day_pass_button {
+  font-family: 'Cabin Sketch', cursive;
   height: 71px;
   width: 160px;
   border: solid black;
@@ -182,6 +252,7 @@ td.gym_results_distance_column {
 }
 
 .gym_details_name {
+  font-family: 'Cabin Sketch', cursive;
   color: white;
   font-size: 40px;
   margin-bottom: 30px;
@@ -236,4 +307,46 @@ td.gym_results_distance_column {
   margin: 0px auto;
   position: relative;
   top: 470px;
+}
+
+/*redemption page*/
+
+/*main container*/
+.redemption_main_container {
+  margin: auto 0;
+  width: 78%;
+  height: 100%;
+  position: relative;
+  left: 125px;
+  top: -120px;
+  background-color: rgba(27,27,26,.8);
+  border-radius: 10px;
+}
+
+/*logo*/
+
+.redemption_logo_main_container {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+  
+.redemption_logo_container {
+  height: 180px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#redemption_logo {
+  position: relative;
+  top: 60px;
+  font-size: 38px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Cabin Sketch', cursive;
+  padding-left: 5px;
+}
+
+.redemption_explainer {
+  color: white;
 }

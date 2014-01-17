@@ -1,12 +1,21 @@
-Your one day gym pass redemption code is: <%= @pass.redemption_code %>
+<div class="redemption_main_container">
+<div class="redemption_logo_main_container">
+    <div class="redemption_logo_container">
+      <div class="">
+        <span id="redemption_logo">one day gym pass</span>
+      </div>
+    </div>
+  </div>
+<div class="redemption_explainer">Your one day gym pass redemption code is: <%= @pass.redemption_code %>. This code has been texted to your phone.
 <br>
 <br>Now what? 
 
 <br>
-<br>Show this code to the front-desk attendant at <%= @gym.name %> and you will receive one free day of access to <%= @gym.name %>.
+<br>Show your five-digit code to the front-desk attendant at <%= @gym.name %> and you will receive one free day of access to <%= @gym.name %>.
 
 <br>
 <br>Rules:
+
 <br>- Only you can redeem this code for a day pass at <%= @gym.name %>. 
 <% t = Time.now %>
 <% t2 = t + 24*60*60 %>
@@ -14,5 +23,7 @@ Your one day gym pass redemption code is: <%= @pass.redemption_code %>
 <br>- You must redeem your day pass in person in the next 24 hours. If you do not, this code will expire at <%= t2.strftime("%I:%M%P on %B %d, %Y") %>. 
 
 <br>- Users are entitled to only one day pass at each participating gym. 
+</div>
 
 <br><a href="<%= root_path %>">Search again</a>
+</div>
