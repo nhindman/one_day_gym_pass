@@ -12,7 +12,7 @@
 
    <!-- custom sign-in / sign-out button -->
 
-   <% if current_user %>
+   <div class="current_user_greeting"><% if current_user %>
 
   Hi, <%= current_user.name %>!
 
@@ -29,6 +29,7 @@
   </form>
   
   <% end %>
+</div>
 
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>

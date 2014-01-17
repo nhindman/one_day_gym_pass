@@ -7,6 +7,15 @@ body {
   background-attachment: fixed;
 }
 
+.current_user_greeting {
+  color: white;
+}
+
+.find_gyms_form {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 .sign_up_main_container {
   text-align: center;
   color: white;
@@ -63,6 +72,7 @@ body {
 }
 
 .landing_explainer {
+  margin-left: 20px;
   color: white;
   font-size: 22px;
   font-family: 'Cabin Sketch', cursive;
