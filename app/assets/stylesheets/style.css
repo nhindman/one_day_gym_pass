@@ -6,53 +6,68 @@ body {
 
 /*gyms_near_field*/
 .gyms_near_field {
+  float:right;
+}
+
+#gym_near_address {
+  font-weight: bold;
 }
 
 /*gym_search_results_table*/
 
 /*main container*/
-.col-md-10 {
-  width: 80%;
+.main_container {
+  width: 70%;
+  height: 100%;
   position: relative;
   top: -120px;
   background-color: white;
   border-radius: 10px;
 }
 
+.gym_details_container {
+  /*width: 70%;*/
+  height: 900px;
+  position: relative;
+  top: -120px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto 0;
+}
+
 /*logo*/
+
+.gym_results_logo_main_container {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
   
 .gym_results_logo_container {
   height: 180px;
-  margin-top: -30px;
   background-color: gray;
-}
-
-.gym_results_logo_container2 {
-  margin-top: 60px;
+  border-radius: 8px;
 }
 
 #gym_results_logo {
+  position: relative;
+  top: 60px;
   font-size: 38px;
   font-weight: bold;
   color: white;
+  padding-left: 5px;
 }
 
 /*gym results table header panel*/
 
-.row {
+.header.row {
   margin-top: 10px;
   margin: auto 0; 
   background-color: green;
   border-radius: 8px;
 }
 
-.col-md-5 {
-  width: 100%;
-  display: inline;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 8px;
-}
+
 
 .gym_results_header {
   display: inline;
@@ -64,17 +79,18 @@ body {
 }
 
 /*gym_name header*/
-.col-md-2.gym_results_header {
-  padding-left: 38px;
+.mine.col-md-2.gym_results_header {
+  margin-left: 98px;
+  margin-right: 2px;
 }
 
 /*What Customers Say header*/
-.col-md-3.col-md-offset-1.gym_results_header {
-  margin-left: 53px;
+.mine2.col-md-3.gym_results_header {
+  margin-left: 30px;
 }
 
-.col-md-1.col-md-offset-4.gym_results_header {
-  padding-right: 30px;
+.mine3.col-md-1.gym_results_header {
+  margin-left: 230px;
 }
 
 tr.gym_results_details_row {
@@ -117,3 +133,11 @@ td.gym_results_distance_column {
   padding-left: 20px;
 }
 
+/*.logo {
+  width: 100%;
+  display: inline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+
+}*/
