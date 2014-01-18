@@ -13,37 +13,31 @@ body {
 
 .find_gyms_form {
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
-.sign_up_main_container {
-  text-align: center;
-  color: white;
-  margin: auto 0;
-  width: 78%;
-  height: 100%;
-  position: relative;
-  left: 125px;
-  top: -20px;
-  background-color: rgba(27,27,26,.8);
-  border-radius: 10px;
+#address_input_find_gym {
+  height: 40px;
+  margin-left: 268px;
+  margin-top: 30px;
+  border-radius: 6px;
 }
 
-.sign_up_button {
-  margin-top: 15px;
-  margin-bottom: 30px;
+.btn.btn-primary.find_gyms {
+
 }
+
 
 /*landing page*/
 
 .landing_main_container {
   margin: auto 0;
   width: 78%;
-  height: 100%;
+  height: 250px;
   position: relative;
-  left: 125px;
-  top: -120px;
-  background-color: rgba(27,27,26,.8);
+  top: 90px;
+  left: 134px;
+  background-color: rgba(255, 255, 255, .6);
   border-radius: 10px;
 }
 
@@ -59,18 +53,17 @@ body {
   background-image: url('one_day_3.png');
 }*/
   
-.landing_logo_container {
+/*.landing_logo_container {
   height: 180px;
   background-color: white;
   border-radius: 8px;
   margin-left: 20px;
   margin-right: 20px;
-}
+}*/
 
 #landing_logo {
-  position: relative;
-  top: 60px;
-  font-size: 38px;
+  font-size: 68px;
+  margin-left: 180px;
   font-weight: bold;
   color: black;
   font-family: 'Cabin Sketch', cursive;
@@ -78,12 +71,16 @@ body {
 }
 
 .landing_explainer {
-  margin-left: 20px;
-  color: white;
+  margin-left: 240px;
+  color: black;
   font-size: 22px;
   font-family: 'Cabin Sketch', cursive;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.find_gyms_form {
+  margin-left: 40px;
 }
 
 /*gym_search_results page/
@@ -365,4 +362,24 @@ td.gym_results_distance_column {
 
 .redemption_explainer {
   color: white;
+}
+
+/*sign up page*/
+
+.sign_up_main_container {
+  text-align: center;
+  color: white;
+  margin: auto 0;
+  width: 78%;
+  height: 100%;
+  position: relative;
+  left: 125px;
+  top: -20px;
+  background-color: rgba(27,27,26,.8);
+  border-radius: 10px;
+}
+
+.sign_up_button {
+  margin-top: 15px;
+  margin-bottom: 30px;
 }

@@ -1,6 +1,8 @@
 <%-#home page index view from users controller%>
 
 <div class="landing_main_container">
+
+
   <div class="landing_logo_main_container">
     <div class="landing_logo_container">
         <span id="landing_logo">one day gym pass</span>
@@ -9,16 +11,14 @@
    
 
 <div class="landing_explainer">
-One day gym pass finds free day passses to gyms in your area. 
-<br><br>Select a nearby gym to visit and we'll send a custom code to your phone that you can exchange for one free day of access. 
-<br><br>It's that simple. 
+Day passses to gyms in your area.  
 </div>   
 
-<div class="find_gyms_form"><form action= "passes/index" method= "POST">
+<form class="find_gyms_form" action="passes/index" method="POST">
 
-  <input id="address_input" type="text" name="user_input_address" placeholder="enter your address" />
+  <input id="address_input_find_gym" type="text" name="user_input_address" placeholder="enter your address" />
   <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
-  <button type="submit">Find gyms</button>
+  <button type="submit"class="btn btn-primary find_gyms">Find gyms</button>
 </form>
 </div>
 </div>
