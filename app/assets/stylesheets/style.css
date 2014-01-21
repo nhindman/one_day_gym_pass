@@ -23,10 +23,9 @@ body {
   border-radius: 6px;
 }
 
-.btn.btn-primary.find_gyms {
-
+input.enter_address_text {
+  text-align:center;
 }
-
 
 /*landing page*/
 
@@ -71,7 +70,7 @@ body {
 }
 
 .landing_explainer {
-  margin-left: 240px;
+  margin-left: 281px;
   color: black;
   font-size: 22px;
   font-family: 'Cabin Sketch', cursive;
@@ -88,13 +87,13 @@ body {
 /*main container*/
 
 .main_container {
-  margin: auto 0;
+ margin: auto 0;
   width: 78%;
   height: 100%;
   position: relative;
   left: 125px;
-  top: -120px;
-  background-color: rgba(27,27,26,.8);
+  top: -80px;
+  background-color: rgba(255, 255, 255, .6);
   border-radius: 10px;
 }
 
@@ -108,14 +107,13 @@ body {
   
 .gym_results_logo_container {
   height: 180px;
-  background-color: white;
   border-radius: 8px;
 }
 
 #gym_results_logo {
   position: relative;
-  top: 60px;
-  font-size: 38px;
+  top: 10px;
+  font-size: 68px;
   font-weight: bold;
   color: black;
   font-family: 'Cabin Sketch', cursive;
@@ -132,11 +130,15 @@ body {
   margin-right: 19px;
   font-weight: bold;
   font-size: 20px;
+  position: relative;
+  top: -10px;
+  right: -16px;
 }
 
 .btn.btn-primary.change_address {
   position: relative;
-  left: 155px;
+  left: 180px;
+  height: 35px;
 }
 
 /*gym results table header panel*/
@@ -144,20 +146,20 @@ body {
 .header.row {
   margin-top: 10px;
   margin: auto 0; 
-  background-color: green;
+  background-color: rgba(36, 36, 36, .8);
   border-radius: 8px;
   font-family: 'Cabin Sketch', cursive;
 }
 
 table {
-  color: white;
+  color: black;
 }
 
 .gym_results_header {
   display: inline;
   padding-top: 15px;
   padding-bottom: 3px;
-  background-color: green;
+  background-color: rgba(36, 36, 36, .8);
   border-radius: 15px;
   color: white;
 }
@@ -166,6 +168,8 @@ table {
 .mine.col-md-2.gym_results_header {
   margin-left: 98px;
   margin-right: 2px;
+  position: relative;
+  right: -8px;
 }
 
 /*What Customers Say header*/
@@ -175,10 +179,13 @@ table {
 
 .mine3.col-md-1.gym_results_header {
   margin-left: 276px;
+  padding-right: 70px;
+  position: relative;
+  right: -6px;
 }
 
 tr.gym_results_details_row {
-  border-bottom: 2px solid green;
+  border-bottom: 2px solid rgb(31, 31, 31);
   border-bottom-style: dotted;
 }
 
@@ -217,9 +224,9 @@ td.gym_results_distance_column {
   width: 78%;
   height: 950px;
   position: relative;
-  top: -141px;
+  top: -86px;
   left: 128px;
-  background-color: rgba(27,27,26,.8);
+  background-color: rgba(255, 255, 255, .6);
   border-radius: 10px;
 }
 
@@ -231,27 +238,28 @@ td.gym_results_distance_column {
   
 .gym_details_logo_container {
   height: 180px;
-  background-color: white;
   border-radius: 8px;
 }
 
 #gym_details_logo {
   position: relative;
   font-family: 'Cabin Sketch', cursive;
-  top: 60px;
-  font-size: 38px;
+  top: 40px;
+  font-size: 68px;
   font-weight: bold;
   color: black;
   padding-left: 5px;
 }
 
 .gym_details_name_image_pass {
-  background-color: rgba(109,109,109,.4);
+  background-color: rgba(29,29,29,.8);
   width: 300px;
   margin-top: 25px;
   margin-left: 18px;
   border-radius: 8px;
   padding: 20px;
+  position: relative;
+  top: -50px;
 }
 
 .btn.btn-primary.get_day_pass_button {
@@ -279,18 +287,18 @@ td.gym_results_distance_column {
 }
 
 .gym_details_map_etc {
-  background-color: rgba(109,109,109,.4);
+  background-color: rgba(29,29,29,.8);
   width: 59%;
   position: absolute;
   left: 345px;
-  top: 203px;
+  top: 154px;
   border-radius: 8px;
-  height: 720px;
+  height: 623px;
 }
 
 #map {
   float: right;
-  top: 38px;
+  top: -62px;
   right: 283px;
   padding-left: 5px;
 }
@@ -315,11 +323,15 @@ td.gym_results_distance_column {
 }
 
 .gym_details_address_phone {
-  background-color: rgb(238, 234, 224);
+  color: white;
+  padding-top: -20px;
   padding-bottom: 15px;
-  margin: 0px auto;
+  margin-right: 7px;
+  margin-left: 7px;
+  border-radius: 8px;
   position: relative;
-  top: 470px;
+  top: 330px;
+}
 }
 
 /*redemption page*/
@@ -353,7 +365,7 @@ td.gym_results_distance_column {
 #redemption_logo {
   position: relative;
   top: 60px;
-  font-size: 38px;
+  font-size: 68px;
   font-weight: bold;
   color: black;
   font-family: 'Cabin Sketch', cursive;
