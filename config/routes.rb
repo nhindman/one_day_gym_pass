@@ -9,6 +9,8 @@ Odgp::Application.routes.draw do
 
   get '/gym' => "passes#gym"
 
+  get '/complaints/sort_by/:sort_by' => 'passes#index', as: 'sort_by'
+
   post '/passes/index' => 'passes#index'
 
   get '/after_sign_in_page' => 'home#you_are_signed_in', as: :my_after_sign_in

@@ -49,6 +49,9 @@ def index
   result = access_token.get(path).body
   results = JSON(result)
   @businesses = results["businesses"]
+  # sorting
+  # sort_by = params[:sort_by] || @businesses["distance"]
+  # @complaints = Complaint.order(sort_by)
   render :'passes/index'
 end
 

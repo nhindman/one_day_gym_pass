@@ -104,6 +104,16 @@ input.enter_address_text {
   margin-right: 0px;
   margin-bottom: 10px;
 }
+
+hr.results_logo_divider {
+  float: left;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid black;
+  width: 63%;
+  margin-left: 3px;
+}
   
 .gym_results_logo_container {
   height: 180px;
@@ -127,25 +137,25 @@ input.enter_address_text {
 }
 
 #gym_near_address {
-  margin-right: 19px;
+  margin-right: 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   top: -10px;
   right: -16px;
 }
 
 .btn.btn-primary.change_address {
-  position: relative;
-  left: 180px;
+  float: right;
   height: 35px;
 }
 
 /*gym results table header panel*/
 
 .header.row {
-  margin-top: 10px;
-  margin: auto 0; 
+  position: relative;
+  top: -29px;
+  margin: auto 0;
   background-color: rgba(36, 36, 36, .8);
   border-radius: 8px;
   font-family: 'Cabin Sketch', cursive;
@@ -153,6 +163,10 @@ input.enter_address_text {
 
 table {
   color: black;
+  position: relative;
+  top: -24px;
+  max-width: 100%;
+  background-color: transparent;
 }
 
 .gym_results_header {
@@ -170,18 +184,21 @@ table {
   margin-right: 2px;
   position: relative;
   right: -8px;
+  font-size: 20px;
 }
 
 /*What Customers Say header*/
 .mine2.col-md-3.gym_results_header {
   margin-left: 30px;
+  font-size: 20px;
 }
 
 .mine3.col-md-1.gym_results_header {
   margin-left: 276px;
-  padding-right: 70px;
+  padding-right: 80px;
   position: relative;
-  right: -6px;
+  right: 0px;
+  font-size: 20px;
 }
 
 tr.gym_results_details_row {
@@ -244,11 +261,23 @@ td.gym_results_distance_column {
 #gym_details_logo {
   position: relative;
   font-family: 'Cabin Sketch', cursive;
-  top: 40px;
+  top: 2px;
   font-size: 68px;
   font-weight: bold;
   color: black;
   padding-left: 5px;
+}
+
+hr.details_logo_divider {
+  float: left;
+  position: relative;
+  top: -18px;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid black;
+  width: 63%;
+  margin-left: 3px;
 }
 
 .gym_details_name_image_pass {
