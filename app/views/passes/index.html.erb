@@ -18,22 +18,22 @@
     </div>
    </div> 
   <div class="header row">
-      <p class="mine col-md-2 gym_results_header">Gym Name</p>
+      <p class="mine col-md-2 gym_results_header"><%= link_to 'Gym Name', sort_by_path('name') %></p>
       <p class="mine2 col-md-3 gym_results_header">What Customers Say</p>
-      <p class="mine3 col-md-1 gym_results_header">Distance</p>
+      <p class="mine3 col-md-1 gym_results_header"><%= link_to 'Distance', sort_by_path('distance') %></p>
   </div>
   <table>  
-  <% @businesses.each do |business| %>
+  <% @gyms.each do |gym| %>
     <tr class="gym_results_details_row">
-    <td class="gym_results_image_column"><img src="<%= business["image_url"] %>"/></td>
-    <td class="gym_results_name_column"><span id="gym_results_business_name_style"><%= link_to business["name"], pass_path(business) %></span>
-      <% if business["location"]["address"][0] !=  nil %>
-        <br><%= business["location"]["address"][0].gsub("["," ") %></td>
+    <td class="gym_results_image_column"><img src="<%= gym.image_url %>"/></td>
+    <td class="gym_results_name_column"><span id="gym_results_business_name_style"><%= link_to gym.name, pass_path(gym) %></span>
+      <% if gym.address !=  nil %>
+        <br><%= gym.address.gsub("["," ") %></td>
       <% else %>
         <br>No Address Specified</br>
       <% end %>
-    <td class="gym_results_customers_column"><%= business["snippet_text"] %>(<a href="<%= business["url"] %>" target="_blank">More</a>)</td>
-    <td class="gym_results_distance_column"><%= business["distance"].meters.to.miles.round(2) %> mi</td> 
+    <td class="gym_results_customers_column"><%= gym.snippet_text %>(<a href="<%= gym.url %>" target="_blank">More</a>)</td>
+    <td class="gym_results_distance_column"><%= gym.distance %> </td> 
     </tr>
   <% end %>
   </table>
